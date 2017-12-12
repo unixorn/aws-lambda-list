@@ -19,7 +19,8 @@
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 
 - [ ] I have confirmed that the link(s) in my PR are valid.
-- [ ] My entries are single lines and are in the appropriate (functions, frameworks, resources) section.
+- [ ] My entries are single lines (unless they're a framework) and are in the appropriate (functions, frameworks, resources) section.
+- [ ] My entries have been added in alphabetical order in their section.
 - [ ] I have read the **CONTRIBUTING** document.
 - [ ] All new and existing tests passed.
 - [ ] I have stripped leading **aws-** or **aws-lambda-** from the link name. This makes it easier to find things by name since there aren't big clusters in the A sections of the lists
