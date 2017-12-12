@@ -13,4 +13,6 @@ This list is under the [Apache 2.0 license](https://github.com/unixorn/aws-lambd
 
 ## Frameworks
 
+* [python-lambda](https://github.com/nficano/python-lambda) - A toolkit for developing and deploying serverless Python code in AWS Lambda.
+
 ## Resources
