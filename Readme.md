@@ -2,9 +2,14 @@
 
 A list of AWS lambdas and lambda-related resources. Hopefully some are even useful.
 
-This list is under the Apache 2.0 license.
+Please note that there are no guarantees that the functions here are safe to run - you're going to have to test them yourself.
+
+This list is under the [Apache 2.0 license](https://github.com/unixorn/aws-lambda-list/blob/master/LICENSE).
 
 ## Functions
+
+* [pricing-tools](https://github.com/concurrencylabs/aws-pricing-tools) - A Lambda function that calculates near real-time price of an account's infrastructure including EC2, ELB, EBS, RDS, Lambda, Dynamo DB and Kinesis resources.
+* [reaper-lambda](https://github.com/gabinante/reaper-lambda) - Reaps any and all instances which are not tagged with an expiration date.
 
 ## Frameworks
 
