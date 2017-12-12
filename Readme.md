@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [aws-lambda-list](#aws-lambda-list)
+  - [Frameworks](#frameworks)
+    - [apex](#apex)
+    - [chalice](#chalice)
+    - [python-lambda](#python-lambda)
+  - [Functions](#functions)
+  - [Resources](#resources)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # aws-lambda-list
 
 A list of AWS lambdas and lambda-related resources. Hopefully some are even useful.
