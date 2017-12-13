@@ -4,13 +4,13 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [aws-lambda-list](#aws-lambda-list)
-  - [Frameworks](#frameworks)
-    - [apex](#apex)
-    - [chalice](#chalice)
-    - [python-lambda](#python-lambda)
-  - [Functions](#functions)
-  - [Resources](#resources)
+- [Frameworks](#frameworks)
+  - [apex](#apex)
+  - [chalice](#chalice)
+  - [python-lambda](#python-lambda)
+  - [Serverless](#serverless)
+- [Functions](#functions)
+- [Other Resources](#other-resources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -34,10 +34,15 @@ Chalice is Amazon's python serverless microframework for AWS. It allows you to q
 
 A toolkit for developing and deploying serverless Python code in AWS Lambda. The Python-Lambda library takes away the guess work of developing your Python-Lambda services by providing you a toolset to streamline the annoying parts.
 
+### [Serverless](http://www.serverless.com)
+
+Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
+
 ## Functions
 
 * [pricing-tools](https://github.com/concurrencylabs/aws-pricing-tools) - A Lambda function that calculates near real-time price of an account's infrastructure including EC2, ELB, EBS, RDS, Lambda, Dynamo DB and Kinesis resources.
 * [reaper-lambda](https://github.com/gabinante/reaper-lambda) - Reaps any and all instances which are not tagged with an expiration date.
 
-## Resources
+## Other Resources
 
+* [Lambda Tutorial: Lambda + Serverless = HAPPY](https://www.youtube.com/watch?v=71cd5XerKss)
