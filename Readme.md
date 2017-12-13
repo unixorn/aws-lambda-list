@@ -45,4 +45,5 @@ Build web, mobile and IoT applications with serverless architectures using AWS L
 
 ## Other Resources
 
+* [iron-io/lambda](https://github.com/iron-io/lambda) - A set of tools, tests and libraries to convert Amazon AWS Lambda functions into Docker images that can run on any computer or cloud provider.
 * [Lambda Tutorial: Lambda + Serverless = HAPPY](https://www.youtube.com/watch?v=71cd5XerKss)
