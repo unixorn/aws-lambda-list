@@ -2,13 +2,14 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+## Table of Contents
 
 - [Frameworks](#frameworks)
   - [apex](#apex)
   - [chalice](#chalice)
   - [python-lambda](#python-lambda)
   - [Serverless](#serverless)
+  - [Serverless Golang](#serverless-golang)
 - [Functions](#functions)
 - [Other Resources](#other-resources)
 
@@ -37,6 +38,10 @@ A toolkit for developing and deploying serverless Python code in AWS Lambda. The
 ### [Serverless](http://www.serverless.com)
 
 Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
+
+### [Serverless Golang](https://github.com/yunspace/serverless-golang)
+
+AWS Lambda Go functions using Serverless Framework and a Python shim.
 
 ## Functions
 
