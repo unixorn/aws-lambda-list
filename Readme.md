@@ -38,6 +38,10 @@ A toolkit for developing and deploying serverless Python code in AWS Lambda. The
 
 Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
 
+### [Serverless Golang](https://github.com/yunspace/serverless-golang)
+
+AWS Lambda Go functions using Serverless Framework and a Python shim.
+
 ## Functions
 
 * [pricing-tools](https://github.com/concurrencylabs/aws-pricing-tools) - A Lambda function that calculates near real-time price of an account's infrastructure including EC2, ELB, EBS, RDS, Lambda, Dynamo DB and Kinesis resources.
