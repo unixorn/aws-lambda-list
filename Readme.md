@@ -53,6 +53,10 @@ Build web, mobile and IoT applications with serverless architectures using AWS L
 
 AWS Lambda Go functions using Serverless Framework and a Python shim.
 
+### [Zappa](https://github.com/Miserlou/Zappa)
+
+Zappa makes it super easy to build and deploy server-less, event-driven Python applications (including, but not limited to, WSGI web apps) on AWS Lambda + API Gateway.
+
 ## Functions
 
 * [pricing-tools](https://github.com/concurrencylabs/aws-pricing-tools) - A Lambda function that calculates near real-time price of an account's infrastructure including EC2, ELB, EBS, RDS, Lambda, Dynamo DB and Kinesis resources.
