@@ -37,6 +37,10 @@ Apex lets you use languages that are not natively supported by AWS Lambda, such 
 
 Chalice is Amazon's python serverless microframework for AWS. It allows you to quickly create and deploy applications that use Amazon API Gateway and AWS Lambda.
 
+### [dawson-cli](https://github.com/dawson-org/dawson-cli)
+
+A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API Gateway, Lambda) [https://dawson.sh](https://dawson.sh)
+
 ### [python-lambda](https://github.com/nficano/python-lambda)
 
 A toolkit for developing and deploying serverless Python code in AWS Lambda. The Python-Lambda library takes away the guess work of developing your Python-Lambda services by providing you a toolset to streamline the annoying parts.
