@@ -17,6 +17,7 @@
   - [python-lambda](#python-lambda)
   - [Serverless](#serverless)
   - [Serverless Golang](#serverless-golang)
+  - [Up](#up)
   - [Zappa](#zappa)
 - [Functions & Applications](#functions--applications)
 - [Other Resources](#other-resources)
@@ -56,6 +57,12 @@ Build web, mobile and IoT applications with serverless architectures using AWS L
 ### [Serverless Golang](https://github.com/yunspace/serverless-golang)
 
 AWS Lambda Go functions using Serverless Framework and a Python shim.
+
+### [Up](https://github.com/apex/up)
+
+Up focuses on deploying "vanilla" HTTP servers so there's nothing new to learn, just develop with your favorite existing frameworks such as Express, Koa, Django, Golang net/http or others.
+
+Up currently supports Node.js, Golang, Python, Java, Crystal, and static sites out of the box. Up is platform-agnostic, supporting AWS Lambda and API Gateway as the first targets. You can think of Up as self-hosted Heroku style user experience for a fraction of the price, with the security, flexibility, and scalability of AWS.
 
 ### [Zappa](https://github.com/Miserlou/Zappa)
 
