@@ -50,7 +50,7 @@ A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API G
 
 A toolkit for developing and deploying serverless Python code in AWS Lambda. The Python-Lambda library takes away the guess work of developing your Python-Lambda services by providing you a toolset to streamline the annoying parts.
 
-### [Serverless](http://www.serverless.com)
+### [Serverless](https://www.serverless.com)
 
 Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
 
