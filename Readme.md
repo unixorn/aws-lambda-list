@@ -90,6 +90,7 @@ Both single functions and Applications composed of multiple serverless functions
 * [node-letsencrypt-lambda](https://github.com/ocelotconsulting/node-letsencrypt-lambda) - Use AWS Lambda to manage SSL certificates for Lets-Encrypt.
 * [pricing-tools](https://github.com/concurrencylabs/aws-pricing-tools) - A Lambda function that calculates near real-time price of an account's infrastructure including EC2, ELB, EBS, RDS, Lambda, Dynamo DB and Kinesis resources.
 * [reaper-lambda](https://github.com/gabinante/reaper-lambda) - Reaps any and all instances which are not tagged with an expiration date.
+* [send-ses-email](https://github.com/eleven41/aws-lambda-send-ses-email) - Send emails using Amazon SES. The primary purpose of this function is to provide a server-side back-end for sending emails from static websites.
 * [SES Email Forwarder](https://github.com/arithmetric/aws-lambda-ses-forwarder) - Node.js script for AWS Lambda that uses the inbound/outbound capabilities of AWS Simple Email Service (SES) to run a "serverless" email forwarding service. Instead of setting up an email server on an EC2 instance to handle email redirects, use SES to receive email, and the included Lambda script to process it and send it on to the chosen destination.
 * [StreamAlert](https://github.com/airbnb/streamalert) - StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define.
 
