@@ -14,6 +14,7 @@
   - [apex](#apex)
   - [chalice](#chalice)
   - [dawson-cli](#dawson-cli)
+  - [Hexaville](#hexaville)
   - [python-lambda](#python-lambda)
   - [Serverless](#serverless)
   - [Serverless Golang](#serverless-golang)
@@ -46,6 +47,10 @@ Chalice is Amazon's python serverless microframework for AWS. It allows you to q
 ### [dawson-cli](https://github.com/dawson-org/dawson-cli)
 
 A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API Gateway, Lambda) [https://dawson.sh](https://dawson.sh)
+
+### [Hexaville](https://github.com/noppoMan/Hexaville)
+
+Hexaville is a serverless framework for Swift using AWS Lambda + ApiGateway etc as a back end. Build applications in Swift comprised of microservices that run in response to events, automatically scale to meet demand, and only charge for time actually spent running
 
 ### [python-lambda](https://github.com/nficano/python-lambda)
 
