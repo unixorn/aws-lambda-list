@@ -21,6 +21,7 @@
   - [Zappa](#zappa)
 - [Functions & Applications](#functions--applications)
 - [Other Resources](#other-resources)
+  - [Miscellaneous](#miscellaneous)
   - [Tutorials](#tutorials)
   - [Utilities](#utilities)
 
@@ -86,6 +87,10 @@ Both single functions and Applications composed of multiple serverless functions
 * [StreamAlert](https://github.com/airbnb/streamalert) - StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define.
 
 ## Other Resources
+
+### Miscellaneous
+
+* [aws-lambda-cheatsheet](https://github.com/srcecde/aws-lambda-cheatsheet) - A cheatsheet for Lambda (focuses on Python)
 
 ### Tutorials
 
