@@ -16,6 +16,7 @@
   - [dawson-cli](#dawson-cli)
   - [Hexaville](#hexaville)
   - [python-lambda](#python-lambda)
+  - [Rumbda](#rumbda)
   - [Serverless](#serverless)
   - [Serverless Golang](#serverless-golang)
   - [Up](#up)
@@ -55,6 +56,10 @@ Hexaville is a serverless framework for Swift using AWS Lambda + ApiGateway etc 
 ### [python-lambda](https://github.com/nficano/python-lambda)
 
 A toolkit for developing and deploying serverless Python code in AWS Lambda. The Python-Lambda library takes away the guess work of developing your Python-Lambda services by providing you a toolset to streamline the annoying parts.
+
+### [Rumbda](https://github.com/kleaver/rumbda)
+
+Rumbda does everything necessary to build a zip file for running ruby inside of an AWS Lambda. This includes downloading [traveling ruby](https://github.com/phusion/traveling-ruby), creating a bundle of the project's Gemfile dependencies, and creating a consumable .zip file for use with Lambda.
 
 ### [Serverless](https://www.serverless.com)
 
