@@ -92,6 +92,7 @@ Both single functions and Applications composed of multiple serverless functions
 * [ecs-host-service-scale](https://github.com/miketheman/ecs-host-service-scale) - Lambda function to ensure an ECS Service is set to the correct Desired Count for a One-Task-Per-Host placement value for any cluster that runs the Service.
 * [honeyλ](https://github.com/0x4D31/honeyLambda) - A simple, serverless application designed to create and monitor fake HTTP endpoints (i.e. URL honeytokens) automatically, on top of AWS Lambda and Amazon API Gateway.
 * [hugo-lambda](https://github.com/ryansb/hugo-lambda) - Use AWS Lambda to run the Hugo static site generator.
+* [invokust](https://github.com/FutureSharks/invokust) - A tool for running [Locust](http://locust.io/) load tests from within Python without the need to use the locust command line to allow running load tests in python or on AWS Lambda.
 * [lambda-comments](https://github.com/jimpick/lambda-comments) - Blog commenting system built with AWS Lambda, API Gateway, S3, DynamoDB streams, IAM and CloudWatch Logs.
 * [lambda-keystore](https://github.com/subdavis/lambda-keystore) - Simple key-value store with TTL for AWS Lambda using DynamoDB.
 * [lambda-packs](https://github.com/ryfeus/lambda-packs) - Precompiled packages for Lambda.
