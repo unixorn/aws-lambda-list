@@ -53,9 +53,34 @@ A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API G
 
 Hexaville is a serverless framework for Swift using AWS Lambda + ApiGateway etc as a back end. Build applications in Swift comprised of microservices that run in response to events, automatically scale to meet demand, and only charge for time actually spent running.
 
+### [power-jambda](https://github.com/visionarts/power-jambda)
+
+A java serverless microframework for RESTful API that allows you to quickly develop applications that use Amazon API Gateway and AWS Lambda.
+
 ### [python-lambda](https://github.com/nficano/python-lambda)
 
 A toolkit for developing and deploying serverless Python code in AWS Lambda. The Python-Lambda library takes away the guess work of developing your Python-Lambda services by providing you a toolset to streamline the annoying parts.
+
+### [python-lambdarest](https://github.com/trustpilot/python-lambdarest)
+
+Python routing mini-framework for AWS Lambda with optional JSON-schema validation.
+
+Features:
+* lambda_handler function constructor with built-in dispatcher
+* Decorator to register functions to handle HTTP methods
+* Optional JSON-schema input validation using same decorator
+
+### [Pyverless](https://github.com/QuantumBA/pyverless)
+
+Pyverless is a mini-framework with a bunch of utilities that aims to help you create APIs using AWS Lambdas fast and in a consistent way. Pyverless provides the following:
+
+* Class-Based Handlers
+* Serializers
+* Authentication handling
+* JWT and cryptography
+* Exceptions
+* Configuration
+* Warmup handling
 
 ### [Rumbda](https://github.com/kleaver/rumbda)
 
@@ -85,6 +110,7 @@ Both single functions and Applications composed of multiple serverless functions
 
 * [aws-lambda-blog-platform](https://github.com/sirceljm/aws-lambda-blog) - A complete blogging solution that uses the following Amazon Web Services for operation - API Gateway, Lambda, DynamoDB, S3, Cloudfront, SES
 * [aws-maintenance-lambda](https://github.com/indix/aws-maintenance-lambda) - Send alerts (to Slack, HipChat) on AWS maintenance events.
+* [aws-ses-to-elasticsearch](https://github.com/ScheduleOnce/aws-ses-to-elasticsearch) - SES is capable of sending reports about email delivery (deliveries, bounces, rejects) to SNS. However, there's no built in way to pipe these reports into something like Elastic Search. This Lambda function bridges the gap and allows to send the reports to ES.
 * [binaryalert](https://github.com/airbnb/binaryalert) - Serverless, Real-time & Retroactive Malware Detection.
 * [chaos-lambda](https://github.com/shoreditch-ops/chaos-lambda) - A Serverless implementation of Netflix's [Chaos Monkey](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) for AWS (runs on AWS Lambda).
 * [chef-node-cleanup](https://github.com/awslabs/lambda-chef-node-cleanup) - Automatically Delete Terminated Instances in Chef Server with AWS Lambda when triggered by CloudWatch instance termination events.
