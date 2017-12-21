@@ -57,6 +57,15 @@ Hexaville is a serverless framework for Swift using AWS Lambda + ApiGateway etc 
 
 A toolkit for developing and deploying serverless Python code in AWS Lambda. The Python-Lambda library takes away the guess work of developing your Python-Lambda services by providing you a toolset to streamline the annoying parts.
 
+### [python-lambdarest](https://github.com/trustpilot/python-lambdarest)
+
+Python routing mini-framework for AWS Lambda with optional JSON-schema validation.
+
+Features:
+* lambda_handler function constructor with built-in dispatcher
+* Decorator to register functions to handle HTTP methods
+* Optional JSON-schema input validation using same decorator
+
 ### [Rumbda](https://github.com/kleaver/rumbda)
 
 Rumbda does everything necessary to build a zip file for running ruby inside of an AWS Lambda. This includes downloading [traveling ruby](https://github.com/phusion/traveling-ruby), creating a bundle of the project's Gemfile dependencies, and creating a consumable .zip file for use with Lambda.
