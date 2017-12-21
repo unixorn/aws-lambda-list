@@ -66,6 +66,18 @@ Features:
 * Decorator to register functions to handle HTTP methods
 * Optional JSON-schema input validation using same decorator
 
+### [Pyverless](https://github.com/QuantumBA/pyverless)
+
+Pyverless is a mini-framework with a bunch of utilities that aims to help you create APIs using AWS Lambdas fast and in a consistent way. Pyverless provides the following:
+
+* Class-Based Handlers
+* Serializers
+* Authentication handling
+* JWT and cryptography
+* Exceptions
+* Configuration
+* Warmup handling
+
 ### [Rumbda](https://github.com/kleaver/rumbda)
 
 Rumbda does everything necessary to build a zip file for running ruby inside of an AWS Lambda. This includes downloading [traveling ruby](https://github.com/phusion/traveling-ruby), creating a bundle of the project's Gemfile dependencies, and creating a consumable .zip file for use with Lambda.
