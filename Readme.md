@@ -66,6 +66,7 @@ A toolkit for developing and deploying serverless Python code in AWS Lambda. The
 Python routing mini-framework for AWS Lambda with optional JSON-schema validation.
 
 Features:
+
 * lambda_handler function constructor with built-in dispatcher
 * Decorator to register functions to handle HTTP methods
 * Optional JSON-schema input validation using same decorator
