@@ -41,6 +41,12 @@ This list is under the [Apache 2.0 license](https://github.com/unixorn/aws-lambd
 
 Apex lets you use languages that are not natively supported by AWS Lambda, such as Golang, through the use of a Node.js shim injected into the build. A variety of workflow related tooling is provided for testing functions, rolling back deploys, viewing metrics, tailing logs, hooking into the build system and more.
 
+### [brutus](https://github.com/milesgranger/brutus)
+
+An HTTP/TCP Distributed Computing Framework in Python using Amazon Lambda functions
+
+Working prototype, still under development. Not suitable for anything other than exploring, making suggestions/issues.
+
 ### [chalice](https://github.com/aws/chalice)
 
 Chalice is Amazon's python serverless microframework for AWS. It allows you to quickly create and deploy applications that use Amazon API Gateway and AWS Lambda.
@@ -101,6 +107,10 @@ Up focuses on deploying "vanilla" HTTP servers so there's nothing new to learn, 
 
 Up currently supports Node.js, Golang, Python, Java, Crystal, and static sites out of the box. Up is platform-agnostic, supporting AWS Lambda and API Gateway as the first targets. You can think of Up as self-hosted Heroku style user experience for a fraction of the price, with the security, flexibility, and scalability of AWS.
 
+### [Webda](https://github.com/loopingz/webda)
+
+A serverless Javascript Development Framework with AWS Lambda and Docker deployment options.
+
 ### [Zappa](https://github.com/Miserlou/Zappa)
 
 Zappa makes it super easy to build and deploy server-less, event-driven Python applications (including, but not limited to, WSGI web apps) on AWS Lambda + API Gateway.
@@ -157,6 +167,7 @@ Both single functions and Applications composed of multiple serverless functions
 * [docker-lambda-python36-rust](https://github.com/ElementAI/docker-lambda-python36-rust) - Docker image that builds Rust applications serverless for AWS Lambda.
 * [docker-lambda](https://github.com/lambci/docker-lambda) - Docker images and test runners that replicate the live AWS Lambda environment
 * [formplug-serverless](https://github.com/danielireson/formplug-serverless) - A form forwarding service for AWS Lambda that you can use to accept form submissions by email without server-side code.
+* [goad](https://github.com/goadapp/goad) - An AWS Lambda powered, highly distributed, load testing tool built in Go.
 * [iopipe-python](https://github.com/iopipe/iopipe-python) - This package provides analytics and distributed tracing for event-driven applications running on AWS Lambda.
 * [iron-io/lambda](https://github.com/iron-io/lambda) - A set of tools, tests and libraries to convert Amazon AWS Lambda functions into Docker images that can run on any computer or cloud provider.
 * [lambda-packager](https://github.com/lorenzoh/lambda-packager) - Uses the amazonlinux Docker image to build Python packages for AWS Lambda.
