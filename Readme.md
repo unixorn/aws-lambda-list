@@ -127,6 +127,7 @@ Both single functions and Applications composed of multiple serverless functions
 * [chaos-lambda](https://github.com/shoreditch-ops/chaos-lambda) - A Serverless implementation of Netflix's [Chaos Monkey](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) for AWS (runs on AWS Lambda).
 * [chef-node-cleanup](https://github.com/awslabs/lambda-chef-node-cleanup) - Automatically Delete Terminated Instances in Chef Server with AWS Lambda when triggered by CloudWatch instance termination events.
 * [chromeless](https://github.com/lagleki/chromeless) - Chrome automation made simple. Runs locally or headless on AWS Lambda. See [https://chromeless.netlify.com](https://chromeless.netlify.com)
+* [cwlogs2sns](https://github.com/jakubknejzlik/cwlogs2sns) - AWS CloudWatch to SNS handler for lambda.
 * [ddns-function](https://github.com/awslabs/aws-lambda-ddns-function) - Dynamically create Route 53 resource records using CloudWatch Events and Lambda.
 * [ecs-host-service-scale](https://github.com/miketheman/ecs-host-service-scale) - Lambda function to ensure an ECS Service is set to the correct Desired Count for a One-Task-Per-Host placement value for any cluster that runs the Service.
 * [honeyλ](https://github.com/0x4D31/honeyLambda) - A simple, serverless application designed to create and monitor fake HTTP endpoints (i.e. URL honeytokens) automatically, on top of AWS Lambda and Amazon API Gateway.
@@ -145,6 +146,7 @@ Both single functions and Applications composed of multiple serverless functions
 * [serverless-plugin-healthcheck](https://github.com/Financial-Times/serverless-plugin-healthcheck) - Creates one schedule event lambda that invokes all the service lambdas you select in a configured time interval (default: 5 minutes) or a specific time, forcing your containers to report their status. In adition, it creates a new endpoint (named __health by default) which can be called to provide a json summary of the current status of each healthcheck.
 * [serverless-url-shortener](https://github.com/danielireson/serverless-url-shortener) - URL shortener for AWS Lambda and S3.
 * [SES Email Forwarder](https://github.com/arithmetric/aws-lambda-ses-forwarder) - Node.js script for AWS Lambda that uses the inbound/outbound capabilities of AWS Simple Email Service (SES) to run a "serverless" email forwarding service. Instead of setting up an email server on an EC2 instance to handle email redirects, use SES to receive email, and the included Lambda script to process it and send it on to the chosen destination.
+* [sns2slack](https://github.com/jakubknejzlik/sns2slack) - AWS SNS to slack notifications handler for AWS Lambda.
 * [StreamAlert](https://github.com/airbnb/streamalert) - StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define.
 
 ## Other Resources
