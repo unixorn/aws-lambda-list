@@ -137,7 +137,9 @@ This section is for both single functions and applications composed of multiple 
 * [cwlogs2sns](https://github.com/jakubknejzlik/cwlogs2sns) - AWS CloudWatch to SNS handler for AWS Lambda.
 * [ddns-function](https://github.com/awslabs/aws-lambda-ddns-function) - Dynamically create Route 53 resource records using CloudWatch Events and AWS Lambda.
 * [ecs-host-service-scale](https://github.com/miketheman/ecs-host-service-scale) - Lambda function to ensure an ECS Service is set to the correct Desired Count for a One-Task-Per-Host placement value for any cluster that runs the Service.
+* [github-s3-deploy](https://github.com/nytlabs/github-s3-deploy) - AWS Lambda function, triggered by Github/SNS webhook, to sync new commits in an S3 bucket.
 * [honeyλ](https://github.com/0x4D31/honeyLambda) - A simple, serverless application designed to create and monitor fake HTTP endpoints (i.e. URL honeytokens) automatically, on top of AWS Lambda and Amazon API Gateway.
+* [houdini](https://github.com/citruspi/houdini) - Houdini runs on AWS Lambda and executes commands on remote hosts over SSH using [Paramiko](http://www.paramiko.org/). The host address, username, command, and private key name are provided by the consumer in the Lambda event, the command is executed, and the contents of stdin, stdout, and stderr are returned. The actual content of the private key used for establishing the SSH connection is encrypted with an [AWS KMS](https://aws.amazon.com/kms/) key and stored in [AWS SSM Parameter Store](https://aws.amazon.com/systems-manager/features/#Parameter_Store).
 * [hugo-lambda](https://github.com/ryansb/hugo-lambda) - Use AWS Lambda to run the Hugo static site generator.
 * [invokust](https://github.com/FutureSharks/invokust) - A tool for running [Locust](http://locust.io/) load tests from within Python without the need to use the locust command line to allow running load tests in python or on AWS Lambda.
 * [lambda-comments](https://github.com/jimpick/lambda-comments) - Blog commenting system built with AWS Lambda, API Gateway, S3, DynamoDB streams, IAM and CloudWatch Logs.
@@ -155,11 +157,14 @@ This section is for both single functions and applications composed of multiple 
 * [serverless-backup](https://github.com/miztiik/serverless-backup) - A simple AWS Boto3 script to trigger EBS Snapshots using Lambda Functions.
 * [serverless-plugin-healthcheck](https://github.com/Financial-Times/serverless-plugin-healthcheck) - Creates one schedule event lambda that invokes all the service lambdas you select in a configured time interval (default: 5 minutes) or a specific time, forcing your containers to report their status. In adition, it creates a new endpoint (named __health by default) which can be called to provide a json summary of the current status of each healthcheck.
 * [serverless-secrets](https://github.com/marksteele/serverless-secrets) - Sample serverless AWS Lambda application that leverages the AWS SSM parameter store for managing secrets.
+* [serverless-plugin-stackstorm](https://github.com/StackStorm/serverless-plugin-stackstorm) - Plugin for serverless framework to run ready to use actions from [StackStorm Exchange](https://exchange.stackstorm.org) as AWS Lambda functions.
 * [serverless-url-shortener](https://github.com/danielireson/serverless-url-shortener) - URL shortener for AWS Lambda and S3.
 * [SES Email Forwarder](https://github.com/arithmetric/aws-lambda-ses-forwarder) - Node.js script for AWS Lambda that uses the inbound/outbound capabilities of AWS Simple Email Service (SES) to run a "serverless" email forwarding service. Instead of setting up an email server on an EC2 instance to handle email redirects, use SES to receive email, and the included Lambda script to process it and send it on to the chosen destination.
 * [ses-forwarder](https://github.com/Technofy/ses-forwarder) - A Python 2.7 Email forwarder script for AWS Lambda, which uses the AWS SES and S3 services.
+* [Shelvery](https://github.com/base2Services/shelvery) - Shelvery is a tool for creating backups in Amazon cloud (AWS). It currently supports RDS and EBS backups, and AMI support is scheduled to be released soon.
 * [sns2slack](https://github.com/jakubknejzlik/sns2slack) - AWS SNS to slack notifications handler for AWS Lambda.
 * [StreamAlert](https://github.com/airbnb/streamalert) - StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define.
+* [werdino-lambda](https://github.com/dariopog/werdino-lambda) - AWS Lambda function for the [Werdino](https://github.com/dariopog/werdino-webhook) webhook.
 
 ## Other Resources
 
