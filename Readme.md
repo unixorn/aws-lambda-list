@@ -56,6 +56,10 @@ This is a working prototype, still under development. Not suitable for anything 
 
 Chalice is Amazon's python serverless microframework for AWS. It allows you to quickly create and deploy applications that use Amazon API Gateway and AWS Lambda.
 
+### [colly](https://github.com/tmaslen/colly)
+
+Another Javascript serverless framework for AWS Lambda and API Gateway.
+
 ### [dawson-cli](https://github.com/dawson-org/dawson-cli)
 
 A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API Gateway, Lambda). More details at [https://dawson.sh](https://dawson.sh).
