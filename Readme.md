@@ -131,15 +131,18 @@ This section is for both single functions and applications composed of multiple 
 * [aws-key-disabler](https://github.com/te-papa/aws-key-disabler) - Lambda Function that disables AWS IAM User Access Keys after a set amount of time in order to reduce the risk associated with old access keys.
 * [aws-lambda-blog-platform](https://github.com/sirceljm/aws-lambda-blog) - A complete blogging solution that uses the following Amazon Web Services for operation - API Gateway, Lambda, DynamoDB, S3, Cloudfront, SES.
 * [aws-maintenance-lambda](https://github.com/indix/aws-maintenance-lambda) - Send alerts (to Slack, HipChat) on AWS maintenance events.
+* [aws-monitor](https://github.com/zulily/aws_monitor) - Run periodically as an AWS Lambda, will detect your instances, add CloudWatch alerting for each, and create CloudWatch dashboards based on your preferences.
 * [aws-ses-to-elasticsearch](https://github.com/ScheduleOnce/aws-ses-to-elasticsearch) - SES is capable of sending reports about email delivery (deliveries, bounces, rejects) to SNS. However, there's no built in way to pipe these reports into something like Elastic Search. This Lambda function bridges the gap and allows to send the reports to ES.
 * [binaryalert](https://github.com/airbnb/binaryalert) - Serverless, Real-time & Retroactive Malware Detection.
 * [BucketSnake](https://github.com/Netflix-Skunkworks/bucketsnake) - Provisions S3 access for IAM roles. A primary feature of Bucket Snake is to crete IAM roles that reside in the account where the S3 buckets live to facilitate proper cross-account S3 bucket access (via a role assumption).
+* [chalice-transmogrify](https://github.com/uncompiled/chalice-transmogrify) - Python Microservice that transforms arbitrary XML/RSS to JSON.
 * [chaos-lambda](https://github.com/shoreditch-ops/chaos-lambda) - A Serverless implementation of Netflix's [Chaos Monkey](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) for AWS (runs on AWS Lambda).
 * [chef-node-cleanup](https://github.com/awslabs/lambda-chef-node-cleanup) - Automatically Delete Terminated Instances in Chef Server with AWS Lambda when triggered by CloudWatch instance termination events.
 * [chromeless](https://github.com/lagleki/chromeless) - Chrome automation made simple. Runs locally or headless on AWS Lambda. See [https://chromeless.netlify.com](https://chromeless.netlify.com) for more details.
 * [cloudwatch-logs-shipper-logzio-lambda](https://github.com/logzio/cloudwatch-logs-shipper-lambda) - Ships Cloudwatch Logs to [logz.io](logz.io).
 * [cwlogs2sns](https://github.com/jakubknejzlik/cwlogs2sns) - AWS CloudWatch to SNS handler for AWS Lambda.
 * [ddns-function](https://github.com/awslabs/aws-lambda-ddns-function) - Dynamically create Route 53 resource records using CloudWatch Events and AWS Lambda.
+* [ebs_snapper](https://github.com/rackerlabs/ebs_snapper) - Allows you to schedule regular EBS snapshots and clean up EBS snapshots on EC2, as well as replicate snapshots to a secondary EC2 region.
 * [ecs-host-service-scale](https://github.com/miketheman/ecs-host-service-scale) - Lambda function to ensure an ECS Service is set to the correct Desired Count for a One-Task-Per-Host placement value for any cluster that runs the Service.
 * [felix](https://github.com/Cimpress-MCP/felix) - Automate the rotation of IAM keys used by third-party services. Felix is aimed at making it easy to manage IAM keys in third-party services like SumoLogic and GitLab. It aims to be easily extensible by both built-in providers and external plugins.
 * [github-s3-deploy](https://github.com/nytlabs/github-s3-deploy) - AWS Lambda function, triggered by Github/SNS webhook, to sync new commits in an S3 bucket.
@@ -160,15 +163,17 @@ This section is for both single functions and applications composed of multiple 
 * [s3-file-copier](https://github.com/roberthelmick08/aws-lambda-s3-file-copier) - Lambda function that copies files from source S3 bucket to target bucket upon upload.
 * [send-ses-email](https://github.com/eleven41/aws-lambda-send-ses-email) - Send emails using Amazon SES. The primary purpose of this function is to provide a server-side back-end for sending emails from static websites.
 * [serverless-backup](https://github.com/miztiik/serverless-backup) - A simple AWS Boto3 script to trigger EBS Snapshots using Lambda Functions.
+* [serverless-ephemeral](https://github.com/Accenture/serverless-ephemeral) - Serverless Ephemeral (or Serephem) is a [Serverless Framework](https://serverless.com/framework/docs/providers/aws/guide/plugins/) plugin that helps bundle any stateless library into a Lambda deployment artifact.
 * [serverless-plugin-healthcheck](https://github.com/Financial-Times/serverless-plugin-healthcheck) - Creates one schedule event lambda that invokes all the service lambdas you select in a configured time interval (default: 5 minutes) or a specific time, forcing your containers to report their status. In adition, it creates a new endpoint (named __health by default) which can be called to provide a json summary of the current status of each healthcheck.
-* [serverless-secrets](https://github.com/marksteele/serverless-secrets) - Sample serverless AWS Lambda application that leverages the AWS SSM parameter store for managing secrets.
 * [serverless-plugin-stackstorm](https://github.com/StackStorm/serverless-plugin-stackstorm) - Plugin for serverless framework to run ready to use actions from [StackStorm Exchange](https://exchange.stackstorm.org) as AWS Lambda functions.
+* [serverless-secrets](https://github.com/marksteele/serverless-secrets) - Sample serverless AWS Lambda application that leverages the AWS SSM parameter store for managing secrets.
 * [serverless-url-shortener](https://github.com/danielireson/serverless-url-shortener) - URL shortener for AWS Lambda and S3.
 * [SES Email Forwarder](https://github.com/arithmetric/aws-lambda-ses-forwarder) - Node.js script for AWS Lambda that uses the inbound/outbound capabilities of AWS Simple Email Service (SES) to run a "serverless" email forwarding service. Instead of setting up an email server on an EC2 instance to handle email redirects, use SES to receive email, and the included Lambda script to process it and send it on to the chosen destination.
 * [ses-forwarder](https://github.com/Technofy/ses-forwarder) - A Python 2.7 Email forwarder script for AWS Lambda, which uses the AWS SES and S3 services.
 * [Shelvery](https://github.com/base2Services/shelvery) - Shelvery is a tool for creating backups in Amazon cloud (AWS). It currently supports RDS and EBS backups, and AMI support is scheduled to be released soon.
 * [sns2slack](https://github.com/jakubknejzlik/sns2slack) - AWS SNS to slack notifications handler for AWS Lambda.
 * [StreamAlert](https://github.com/airbnb/streamalert) - StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define.
+* [sumologic-aws-lambda-unzip](https://github.com/frankreno/sumologic-aws-lambda-unzip) - Java Lambda function that can uncompress a zip file, read the files inside and send them to Sumo Logic.
 * [werdino-lambda](https://github.com/dariopog/werdino-lambda) - AWS Lambda function for the [Werdino](https://github.com/dariopog/werdino-webhook) webhook.
 
 ## Other Resources
@@ -179,12 +184,15 @@ This section is for both single functions and applications composed of multiple 
 
 ### Tutorials
 
+* [AWS IOT Button Example](https://github.com/mongoose-os-apps/aws-iot-button) - This is an Internet Button reference project: when a button on the device is pressed, a cloud backend gets a notification and performs an action. In this particular case, AWS Lambda function sends an email to the specific email address.
 * [Lambda Tutorial: Lambda + Serverless = HAPPY](https://www.youtube.com/watch?v=71cd5XerKss)
 * [Learning Lambda](https://blog.symphonia.io/learning-lambda-1f25af64161c) - Mike Roberts' series on learning to use Lambda
 * [Nightmare-lambda-tutorial](https://github.com/dimkir/nightmare-lambda-tutorial) - A sample project and tutorial to show how to run NightmareJS on AWS Lambda.
+* [AWS IOT Button Example](https://github.com/mongoose-os-apps/aws-iot-button) - This is an Internet Button reference project: when a button on the device is pressed, a cloud backend gets a notification and performs an action. In this particular case, AWS Lambda function sends an email to the specific email address.
 
 ### Utilities
 
+* [api-gateway-sim](https://github.com/elitechance/api-gateway-sim) - API Gateway simulator for Node JS Lambda that allows you to test your Lambda function locally.
 * [aws-lambda-dotnet](https://github.com/aws/aws-lambda-dotnet) - Libraries, samples and tools to help .NET Core developers develop AWS Lambda functions.
 * [aws-lambda-runner](https://github.com/kevinsimard/aws-lambda-runner) - An AWS Lambda Java simulator that allows running and debugging Lambda functions authored in Java locally.
 * [aws-sam-local](https://github.com/awslabs/aws-sam-local) - `sam` is the AWS CLI tool for managing Serverless applications written with [AWS Serverless Application Model (SAM)](https://github.com/awslabs/serverless-application-model). SAM Local can be used to test functions locally, start a local API Gateway from a SAM template, validate a SAM template, and generate sample payloads for various event sources.
@@ -205,5 +213,6 @@ This section is for both single functions and applications composed of multiple 
 * [lambdaskill](https://github.com/michaeluhl/lambdaskill) - A simple Python 3 toolkit to build Alexa Skills using AWS Lambda.
 * [lambdaWrap](https://github.com/Cimpress-MCP/LambdaWrap) - Ruby gem to simplify deployment of AWS Lambda based web services.
 * [python-vendor](https://github.com/joshringer/python-vendor) - Provides an AWS service API for building compiled Python packages, ready for use in your own AWS Lambda functions.
+* [simple-lambda-mailer](https://github.com/hendrickson02/simple-lambda-mailer) - A simple mailer that you can use in a web blog and call via an API.
 * [simple-lambda-router](https://github.com/brunomorency/simple-lambda-router) - A small router utility for lambda functions handling HTTP events from multiple resources and methods.
 * [webpack-aws-lambda-upload-plugin](https://github.com/sirceljm/webpack-aws-lambda-upload-plugin) - Zip and upload your AWS Lambda function directly from webpack.
