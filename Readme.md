@@ -48,9 +48,9 @@ Apex lets you use languages that are not natively supported by AWS Lambda, such 
 
 ### [brutus](https://github.com/milesgranger/brutus)
 
-An HTTP/TCP Distributed Computing Framework in Python using Amazon Lambda functions
+An HTTP/TCP Distributed Computing Framework in Python using Amazon Lambda functions.
 
-Working prototype, still under development. Not suitable for anything other than exploring, making suggestions/issues.
+This is a working prototype, still under development. Not suitable for anything other than exploring, making suggestions/issues.
 
 ### [chalice](https://github.com/aws/chalice)
 
@@ -62,7 +62,7 @@ A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API G
 
 ### [Hexaville](https://github.com/noppoMan/Hexaville)
 
-Hexaville is a serverless framework for Swift using AWS Lambda + ApiGateway etc as a back end. Build applications in Swift comprised of microservices that run in response to events, automatically scale to meet demand, and only charge for time actually spent running.
+Hexaville is a serverless framework for Swift using AWS Lambda + ApiGateway etc as a back end. Build applications in Swift comprised of microservices that run in response to events, automatically scale to meet demand, and only be charged for time actually spent running.
 
 ### [power-jambda](https://github.com/visionarts/power-jambda)
 
@@ -86,12 +86,12 @@ Features:
 
 Pyverless is a mini-framework with a bunch of utilities that aims to help you create APIs using AWS Lambdas fast and in a consistent way. Pyverless provides the following:
 
-* Class-Based Handlers
-* Serializers
 * Authentication handling
-* JWT and cryptography
-* Exceptions
+* Class-Based Handlers
 * Configuration
+* Exceptions
+* JWT and cryptography
+* Serializers
 * Warmup handling
 
 ### [Rumbda](https://github.com/kleaver/rumbda)
@@ -100,7 +100,7 @@ Rumbda does everything necessary to build a zip file for running ruby inside of 
 
 ### [Serverless](https://www.serverless.com)
 
-Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more! Here is a list of [Serverless Examples](https://github.com/serverless/examples)
+Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more! Here is a list of [Serverless Examples](https://github.com/serverless/examples).
 
 ### [Serverless Golang](https://github.com/yunspace/serverless-golang)
 
@@ -122,19 +122,19 @@ Zappa makes it super easy to build and deploy server-less, event-driven Python a
 
 ## Functions & Applications
 
-Both single functions and Applications composed of multiple serverless functions
+This section is for both single functions and applications composed of multiple interconnected AWS lambda functions.
 
 * [aws-key-disabler](https://github.com/te-papa/aws-key-disabler) - Lambda Function that disables AWS IAM User Access Keys after a set amount of time in order to reduce the risk associated with old access keys.
-* [aws-lambda-blog-platform](https://github.com/sirceljm/aws-lambda-blog) - A complete blogging solution that uses the following Amazon Web Services for operation - API Gateway, Lambda, DynamoDB, S3, Cloudfront, SES
+* [aws-lambda-blog-platform](https://github.com/sirceljm/aws-lambda-blog) - A complete blogging solution that uses the following Amazon Web Services for operation - API Gateway, Lambda, DynamoDB, S3, Cloudfront, SES.
 * [aws-maintenance-lambda](https://github.com/indix/aws-maintenance-lambda) - Send alerts (to Slack, HipChat) on AWS maintenance events.
 * [aws-ses-to-elasticsearch](https://github.com/ScheduleOnce/aws-ses-to-elasticsearch) - SES is capable of sending reports about email delivery (deliveries, bounces, rejects) to SNS. However, there's no built in way to pipe these reports into something like Elastic Search. This Lambda function bridges the gap and allows to send the reports to ES.
 * [binaryalert](https://github.com/airbnb/binaryalert) - Serverless, Real-time & Retroactive Malware Detection.
 * [BucketSnake](https://github.com/Netflix-Skunkworks/bucketsnake) - Provisions S3 access for IAM roles. A primary feature of Bucket Snake is to crete IAM roles that reside in the account where the S3 buckets live to facilitate proper cross-account S3 bucket access (via a role assumption).
 * [chaos-lambda](https://github.com/shoreditch-ops/chaos-lambda) - A Serverless implementation of Netflix's [Chaos Monkey](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) for AWS (runs on AWS Lambda).
 * [chef-node-cleanup](https://github.com/awslabs/lambda-chef-node-cleanup) - Automatically Delete Terminated Instances in Chef Server with AWS Lambda when triggered by CloudWatch instance termination events.
-* [chromeless](https://github.com/lagleki/chromeless) - Chrome automation made simple. Runs locally or headless on AWS Lambda. See [https://chromeless.netlify.com](https://chromeless.netlify.com)
-* [cwlogs2sns](https://github.com/jakubknejzlik/cwlogs2sns) - AWS CloudWatch to SNS handler for lambda.
-* [ddns-function](https://github.com/awslabs/aws-lambda-ddns-function) - Dynamically create Route 53 resource records using CloudWatch Events and Lambda.
+* [chromeless](https://github.com/lagleki/chromeless) - Chrome automation made simple. Runs locally or headless on AWS Lambda. See [https://chromeless.netlify.com](https://chromeless.netlify.com) for more details.
+* [cwlogs2sns](https://github.com/jakubknejzlik/cwlogs2sns) - AWS CloudWatch to SNS handler for AWS Lambda.
+* [ddns-function](https://github.com/awslabs/aws-lambda-ddns-function) - Dynamically create Route 53 resource records using CloudWatch Events and AWS Lambda.
 * [ecs-host-service-scale](https://github.com/miketheman/ecs-host-service-scale) - Lambda function to ensure an ECS Service is set to the correct Desired Count for a One-Task-Per-Host placement value for any cluster that runs the Service.
 * [honeyλ](https://github.com/0x4D31/honeyLambda) - A simple, serverless application designed to create and monitor fake HTTP endpoints (i.e. URL honeytokens) automatically, on top of AWS Lambda and Amazon API Gateway.
 * [hugo-lambda](https://github.com/ryansb/hugo-lambda) - Use AWS Lambda to run the Hugo static site generator.
@@ -165,7 +165,7 @@ Both single functions and Applications composed of multiple serverless functions
 
 ### Miscellaneous
 
-* [aws-lambda-cheatsheet](https://github.com/srcecde/aws-lambda-cheatsheet) - A cheatsheet for Lambda (focuses on Python)
+* [aws-lambda-cheatsheet](https://github.com/srcecde/aws-lambda-cheatsheet) - A cheatsheet for AWS Lambda (focuses on Python)
 
 ### Tutorials
 
