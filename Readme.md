@@ -110,6 +110,10 @@ Build web, mobile and IoT applications with serverless architectures using AWS L
 
 AWS Lambda Go functions using Serverless Framework and a Python shim.
 
+### [Sparta](http://gosparta.io/)
+
+A Go framework for transforming a Go application into an AWS Lambda powered microservice. Supports multiple event sources, compile-time IAM policies, and automatic packaging and marshaling to CloudFormation.
+
 ### [Up](https://github.com/apex/up)
 
 Up focuses on deploying "vanilla" HTTP servers so there's nothing new to learn, just develop with your favorite existing frameworks such as Express, Koa, Django, Golang net/http or others.
