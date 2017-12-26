@@ -181,6 +181,7 @@ This section is for both single functions and applications composed of multiple 
 * [sns2slack](https://github.com/jakubknejzlik/sns2slack) - AWS SNS to slack notifications handler for AWS Lambda.
 * [StreamAlert](https://github.com/airbnb/streamalert) - StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define.
 * [sumologic-aws-lambda-unzip](https://github.com/frankreno/sumologic-aws-lambda-unzip) - Java Lambda function that can uncompress a zip file, read the files inside and send them to Sumo Logic.
+* [url-shortener](https://github.com/guihaojin/url-shortener) - URL Shortener service built with serverless framework on AWS, API Gateway + Lambda + DynamoDB.
 * [werdino-lambda](https://github.com/dariopog/werdino-lambda) - AWS Lambda function for the [Werdino](https://github.com/dariopog/werdino-webhook) webhook.
 
 ## Other Resources
