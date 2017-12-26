@@ -132,9 +132,13 @@ Zappa makes it super easy to build and deploy server-less, event-driven Python a
 
 This section is for both single functions and applications composed of multiple interconnected AWS lambda functions.
 
+* [aws-ec2-autoshutdown-lambda](https://github.com/mdrapatyi-ring/aws-ec2-autoshutdown-lambda) - Shutdown ec2 low utilized instances automatically.
 * [aws-key-disabler](https://github.com/te-papa/aws-key-disabler) - Lambda Function that disables AWS IAM User Access Keys after a set amount of time in order to reduce the risk associated with old access keys.
 * [aws-lambda-blog-platform](https://github.com/sirceljm/aws-lambda-blog) - A complete blogging solution that uses the following Amazon Web Services for operation - API Gateway, Lambda, DynamoDB, S3, Cloudfront, SES.
-* [aws-maintenance-lambda](https://github.com/indix/aws-maintenance-lambda) - Send alerts (to Slack, HipChat) on AWS maintenance events.
+* [aws-lambda-https-to-amqps](https://github.com/mikhaelsantos/aws-lambda-https-to-amqps) - Forwards amps messages from API Gateway to RabbitMQ.
+* [aws-lambda-shell-execute](https://github.com/ken107/aws-lambda-shell-execute) - Executes a shell command and returns the output. Additional executable binaries can be deployed with and used by the function.
+* [aws-maintenance-lambda (indix)](https://github.com/indix/aws-maintenance-lambda) - Send alerts (to Slack, HipChat) on AWS maintenance events.
+* [aws-maintenance-lambda (traveloka)](https://github.com/traveloka/aws-maintenance-lambda) - Trigger Jira Issue Creation from AWS Health Events.
 * [aws-monitor](https://github.com/zulily/aws_monitor) - Run periodically as an AWS Lambda, will detect your instances, add CloudWatch alerting for each, and create CloudWatch dashboards based on your preferences.
 * [aws-ses-to-elasticsearch](https://github.com/ScheduleOnce/aws-ses-to-elasticsearch) - SES is capable of sending reports about email delivery (deliveries, bounces, rejects) to SNS. However, there's no built in way to pipe these reports into something like Elastic Search. This Lambda function bridges the gap and allows to send the reports to ES.
 * [binaryalert](https://github.com/airbnb/binaryalert) - Serverless, Real-time & Retroactive Malware Detection.
@@ -153,6 +157,7 @@ This section is for both single functions and applications composed of multiple 
 * [honeyλ](https://github.com/0x4D31/honeyLambda) - A simple, serverless application designed to create and monitor fake HTTP endpoints (i.e. URL honeytokens) automatically, on top of AWS Lambda and Amazon API Gateway.
 * [houdini](https://github.com/citruspi/houdini) - Houdini runs on AWS Lambda and executes commands on remote hosts over SSH using [Paramiko](http://www.paramiko.org/). The host address, username, command, and private key name are provided by the consumer in the Lambda event, the command is executed, and the contents of stdin, stdout, and stderr are returned. The actual content of the private key used for establishing the SSH connection is encrypted with an [AWS KMS](https://aws.amazon.com/kms/) key and stored in [AWS SSM Parameter Store](https://aws.amazon.com/systems-manager/features/#Parameter_Store).
 * [hugo-lambda](https://github.com/ryansb/hugo-lambda) - Use AWS Lambda to run the Hugo static site generator.
+* [imprenta](https://github.com/alfredo/imprenta) - Generates PDF files from HTML using jinja, pdfkit and wkhtmltopdf.
 * [invokust](https://github.com/FutureSharks/invokust) - A tool for running [Locust](http://locust.io/) load tests from within Python without the need to use the locust command line to allow running load tests in python or on AWS Lambda.
 * [lambda-comments](https://github.com/jimpick/lambda-comments) - Blog commenting system built with AWS Lambda, API Gateway, S3, DynamoDB streams, IAM and CloudWatch Logs.
 * [lambda-keystore](https://github.com/subdavis/lambda-keystore) - Simple key-value store with TTL for AWS Lambda using DynamoDB.
@@ -163,10 +168,12 @@ This section is for both single functions and applications composed of multiple 
 * [MoonMail](https://github.com/microapps/MoonMail) - Sends email marketing campaigns with [Amazon SES](https://moonmail.io/amazon-ses-email-marketing/).
 * [node-letsencrypt-lambda](https://github.com/ocelotconsulting/node-letsencrypt-lambda) - Use AWS Lambda to manage SSL certificates for Lets-Encrypt.
 * [perf-cop](https://github.com/Quartz/perf-cop) - Profiles your site with PWMetrics and publishes the results as CloudWatch metrics.
+* [pr-notify-bot](https://github.com/kentaro-m/lambda-pr-notify-bot) - Sends Slack reminders to CR reviewers to review their pull requests on AWS.
 * [pricing-tools](https://github.com/concurrencylabs/aws-pricing-tools) - A Lambda function that calculates near real-time price of an account's infrastructure including EC2, ELB, EBS, RDS, Lambda, Dynamo DB and Kinesis resources.
 * [reaper-lambda](https://github.com/gabinante/reaper-lambda) - Reaps any and all instances which are not tagged with an expiration date.
 * [s3-file-copier](https://github.com/roberthelmick08/aws-lambda-s3-file-copier) - Lambda function that copies files from source S3 bucket to target bucket upon upload.
 * [send-ses-email](https://github.com/eleven41/aws-lambda-send-ses-email) - Send emails using Amazon SES. The primary purpose of this function is to provide a server-side back-end for sending emails from static websites.
+* [serverless-ami-replicator](https://github.com/miztiik/serverless-ami-replicator) - Replicate AMIs across AWS Regions.
 * [serverless-backup](https://github.com/miztiik/serverless-backup) - A simple AWS Boto3 script to trigger EBS Snapshots using Lambda Functions.
 * [serverless-ephemeral](https://github.com/Accenture/serverless-ephemeral) - Serverless Ephemeral (or Serephem) is a [Serverless Framework](https://serverless.com/framework/docs/providers/aws/guide/plugins/) plugin that helps bundle any stateless library into a Lambda deployment artifact.
 * [serverless-plugin-healthcheck](https://github.com/Financial-Times/serverless-plugin-healthcheck) - Creates one schedule event lambda that invokes all the service lambdas you select in a configured time interval (default: 5 minutes) or a specific time, forcing your containers to report their status. In adition, it creates a new endpoint (named __health by default) which can be called to provide a json summary of the current status of each healthcheck.
@@ -178,8 +185,10 @@ This section is for both single functions and applications composed of multiple 
 * [ses-forwarder](https://github.com/Technofy/ses-forwarder) - A Python 2.7 Email forwarder script for AWS Lambda, which uses the AWS SES and S3 services.
 * [Shelvery](https://github.com/base2Services/shelvery) - Shelvery is a tool for creating backups in Amazon cloud (AWS). It currently supports RDS and EBS backups, and AMI support is scheduled to be released soon.
 * [sns2slack](https://github.com/jakubknejzlik/sns2slack) - AWS SNS to slack notifications handler for AWS Lambda.
+* [splunk-aws-serverless-apps](https://github.com/splunk/splunk-aws-serverless-apps) - Splunk AWS Serverless applications and [Lambda blueprints](https://www.splunk.com/blog/2016/11/29/announcing-new-aws-lambda-blueprints-for-splunk.html), including associated CloudFormation templates (using [SAM](https://github.com/awslabs/serverless-application-model)) for automated packaging & deployment.
 * [StreamAlert](https://github.com/airbnb/streamalert) - StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define.
 * [sumologic-aws-lambda-unzip](https://github.com/frankreno/sumologic-aws-lambda-unzip) - Java Lambda function that can uncompress a zip file, read the files inside and send them to Sumo Logic.
+* [url-shortener](https://github.com/guihaojin/url-shortener) - URL Shortener service built with serverless framework on AWS, API Gateway + Lambda + DynamoDB.
 * [werdino-lambda](https://github.com/dariopog/werdino-lambda) - AWS Lambda function for the [Werdino](https://github.com/dariopog/werdino-webhook) webhook.
 
 ## Other Resources
@@ -191,10 +200,10 @@ This section is for both single functions and applications composed of multiple 
 ### Tutorials
 
 * [AWS IOT Button Example](https://github.com/mongoose-os-apps/aws-iot-button) - This is an Internet Button reference project: when a button on the device is pressed, a cloud backend gets a notification and performs an action. In this particular case, AWS Lambda function sends an email to the specific email address.
+* [aws-lambda-vpc-nat-examples](https://github.com/ittus/aws-lambda-vpc-nat-examples) - Example of setting up AWS lambda function with VPC and NAT.
 * [Lambda Tutorial: Lambda + Serverless = HAPPY](https://www.youtube.com/watch?v=71cd5XerKss)
 * [Learning Lambda](https://blog.symphonia.io/learning-lambda-1f25af64161c) - Mike Roberts' series on learning to use Lambda
 * [Nightmare-lambda-tutorial](https://github.com/dimkir/nightmare-lambda-tutorial) - A sample project and tutorial to show how to run NightmareJS on AWS Lambda.
-* [AWS IOT Button Example](https://github.com/mongoose-os-apps/aws-iot-button) - This is an Internet Button reference project: when a button on the device is pressed, a cloud backend gets a notification and performs an action. In this particular case, AWS Lambda function sends an email to the specific email address.
 
 ### Utilities
 
@@ -212,6 +221,7 @@ This section is for both single functions and applications composed of multiple 
 * [iopipe-python](https://github.com/iopipe/iopipe-python) - This package provides analytics and distributed tracing for event-driven applications running on AWS Lambda.
 * [iron-io/lambda](https://github.com/iron-io/lambda) - A set of tools, tests and libraries to convert Amazon AWS Lambda functions into Docker images that can run on any computer or cloud provider.
 * [jiffy-route-builder](https://github.com/jiffycloud/jiffy-route-builder) - A tiny module (<5KB) to create lightweight API handlers using Node.js with AWS Lambda and API Gateway. Uses another tiny (<2KB) library called [route-recognizer](https://github.com/tildeio/route-recognizer) to match URLs against routing patterns, and forwards requests to handler functions. Written in TypeScript so you have type information available - especially useful to figure out what's available in the request that API Gateway sends to your handler.
+* [lambda-deployer](https://github.com/mdevilliers/lambda-deployer) - Automate the deployment of AWS Lambda functions easily from either a developers machine or CI system.
 * [lambda-packager](https://github.com/lorenzoh/lambda-packager) - Uses the amazonlinux Docker image to build Python packages for AWS Lambda.
 * [lambda-packages](https://github.com/Miserlou/lambda-packages) - Various popular python libraries, pre-compiled to be compatible with AWS Lambda. The best way to use these packages is with [Zappa](https://github.com/Miserlou/Zappa), which will automatically install the right packages during deployment, and do a million other useful things [https://blog.zappa.io](https://blog.zappa.io).
 * [lambda-tdd](https://github.com/simlu/lambda-tdd) - A testing framework for AWS Lambda functions. Useful for integration testing as you can examine how your lambda function executes for certain input and specific environment variables. Tries to model the cloud execution as closely as possible
