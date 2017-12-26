@@ -179,6 +179,7 @@ This section is for both single functions and applications composed of multiple 
 * [ses-forwarder](https://github.com/Technofy/ses-forwarder) - A Python 2.7 Email forwarder script for AWS Lambda, which uses the AWS SES and S3 services.
 * [Shelvery](https://github.com/base2Services/shelvery) - Shelvery is a tool for creating backups in Amazon cloud (AWS). It currently supports RDS and EBS backups, and AMI support is scheduled to be released soon.
 * [sns2slack](https://github.com/jakubknejzlik/sns2slack) - AWS SNS to slack notifications handler for AWS Lambda.
+* [splunk-aws-serverless-apps](https://github.com/splunk/splunk-aws-serverless-apps) - Splunk AWS Serverless applications and [Lambda blueprints](https://www.splunk.com/blog/2016/11/29/announcing-new-aws-lambda-blueprints-for-splunk.html), including associated CloudFormation templates (using [SAM](https://github.com/awslabs/serverless-application-model)) for automated packaging & deployment.
 * [StreamAlert](https://github.com/airbnb/streamalert) - StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define.
 * [sumologic-aws-lambda-unzip](https://github.com/frankreno/sumologic-aws-lambda-unzip) - Java Lambda function that can uncompress a zip file, read the files inside and send them to Sumo Logic.
 * [url-shortener](https://github.com/guihaojin/url-shortener) - URL Shortener service built with serverless framework on AWS, API Gateway + Lambda + DynamoDB.
