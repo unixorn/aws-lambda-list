@@ -136,6 +136,7 @@ This section is for both single functions and applications composed of multiple 
 * [aws-key-disabler](https://github.com/te-papa/aws-key-disabler) - Lambda Function that disables AWS IAM User Access Keys after a set amount of time in order to reduce the risk associated with old access keys.
 * [aws-lambda-blog-platform](https://github.com/sirceljm/aws-lambda-blog) - A complete blogging solution that uses the following Amazon Web Services for operation - API Gateway, Lambda, DynamoDB, S3, Cloudfront, SES.
 * [aws-lambda-https-to-amqps](https://github.com/mikhaelsantos/aws-lambda-https-to-amqps) - Forwards amps messages from API Gateway to RabbitMQ.
+* [aws-lambda-shell-execute](https://github.com/ken107/aws-lambda-shell-execute) - Executes a shell command and returns the output. Additional executable binaries can be deployed with and used by the function.
 * [aws-maintenance-lambda (indix)](https://github.com/indix/aws-maintenance-lambda) - Send alerts (to Slack, HipChat) on AWS maintenance events.
 * [aws-maintenance-lambda (traveloka)](https://github.com/traveloka/aws-maintenance-lambda) - Trigger Jira Issue Creation from AWS Health Events.
 * [aws-monitor](https://github.com/zulily/aws_monitor) - Run periodically as an AWS Lambda, will detect your instances, add CloudWatch alerting for each, and create CloudWatch dashboards based on your preferences.
