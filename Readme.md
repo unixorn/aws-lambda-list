@@ -170,7 +170,9 @@ This section is for both single functions and applications composed of multiple 
 * [perf-cop](https://github.com/Quartz/perf-cop) - Profiles your site with PWMetrics and publishes the results as CloudWatch metrics.
 * [pr-notify-bot](https://github.com/kentaro-m/lambda-pr-notify-bot) - Sends Slack reminders to CR reviewers to review their pull requests on AWS.
 * [pricing-tools](https://github.com/concurrencylabs/aws-pricing-tools) - A Lambda function that calculates near real-time price of an account's infrastructure including EC2, ELB, EBS, RDS, Lambda, Dynamo DB and Kinesis resources.
+* [rds_snapshot_copier](https://github.com/myoung34/DevOps/tree/master/aws/lambda/rds_snapshot_copier) - Copies automatic RDS snapshots so that they're safe from terraform.
 * [reaper-lambda](https://github.com/gabinante/reaper-lambda) - Reaps any and all instances which are not tagged with an expiration date.
+* [redshift_snapshot_copier](https://github.com/myoung34/DevOps/tree/master/aws/lambda/redshift_snapshot_copier) - Copies automatic redshift snapshots so that they're safe from terraform.
 * [s3-file-copier](https://github.com/roberthelmick08/aws-lambda-s3-file-copier) - Lambda function that copies files from source S3 bucket to target bucket upon upload.
 * [send-ses-email](https://github.com/eleven41/aws-lambda-send-ses-email) - Send emails using Amazon SES. The primary purpose of this function is to provide a server-side back-end for sending emails from static websites.
 * [serverless-ami-replicator](https://github.com/miztiik/serverless-ami-replicator) - Replicate AMIs across AWS Regions.
@@ -214,6 +216,7 @@ This section is for both single functions and applications composed of multiple 
 * [claudia](https://github.com/claudiajs/claudia) - Claudia makes it easy to deploy Node.js projects to AWS Lambda and API Gateway. It automates all the error-prone deployment and configuration tasks, and sets everything up the way JavaScript developers expect out of the box. This means that you can get started with Lambda and API Gateway easily, and focus on solving important business problems instead of dealing with AWS deployment workflows.
 * [cljs-lambda](https://github.com/nervous-systems/cljs-lambda) - Utilities around deploying Clojurescript functions to AWS Lambda.
 * [dd-aws-lambda-functions](https://github.com/DataDog/dd-aws-lambda-functions) - Repository of lambda functions that process aws log streams and send data to datadog
+* [django-docker-zappa-boilerplate](https://github.com/alexazevedo/django-docker-zappa-boilerplate) - Template for settting up serverless Django with Zappa, Docker, MySQL and Nginx for local development and remote deployment to AWS Lambda / API Gateway.
 * [docker-lambda-python36-rust](https://github.com/ElementAI/docker-lambda-python36-rust) - Docker image that builds Rust applications serverless for AWS Lambda.
 * [docker-lambda](https://github.com/lambci/docker-lambda) - Docker images and test runners that replicate the live AWS Lambda environment
 * [formplug-serverless](https://github.com/danielireson/formplug-serverless) - A form forwarding service for AWS Lambda that you can use to accept form submissions by email without server-side code.
