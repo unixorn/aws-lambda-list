@@ -132,7 +132,6 @@ Zappa makes it super easy to build and deploy server-less, event-driven Python a
 
 This section is for both single functions and applications composed of multiple interconnected AWS lambda functions.
 
-* [aws-ec2-autoshutdown-lambda](https://github.com/mdrapatyi-ring/aws-ec2-autoshutdown-lambda) - Shutdown ec2 low utilized instances automatically.
 * [aws-key-disabler](https://github.com/te-papa/aws-key-disabler) - Lambda Function that disables AWS IAM User Access Keys after a set amount of time in order to reduce the risk associated with old access keys.
 * [aws-lambda-blog-platform](https://github.com/sirceljm/aws-lambda-blog) - A complete blogging solution that uses the following Amazon Web Services for operation - API Gateway, Lambda, DynamoDB, S3, Cloudfront, SES.
 * [aws-lambda-https-to-amqps](https://github.com/mikhaelsantos/aws-lambda-https-to-amqps) - Forwards amps messages from API Gateway to RabbitMQ.
