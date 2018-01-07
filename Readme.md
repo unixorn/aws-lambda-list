@@ -132,7 +132,6 @@ Zappa makes it super easy to build and deploy server-less, event-driven Python a
 
 This section is for both single functions and applications composed of multiple interconnected AWS lambda functions.
 
-* [aws-ec2-autoshutdown-lambda](https://github.com/mdrapatyi-ring/aws-ec2-autoshutdown-lambda) - Shutdown ec2 low utilized instances automatically.
 * [aws-key-disabler](https://github.com/te-papa/aws-key-disabler) - Lambda Function that disables AWS IAM User Access Keys after a set amount of time in order to reduce the risk associated with old access keys.
 * [aws-lambda-blog-platform](https://github.com/sirceljm/aws-lambda-blog) - A complete blogging solution that uses the following Amazon Web Services for operation - API Gateway, Lambda, DynamoDB, S3, Cloudfront, SES.
 * [aws-lambda-https-to-amqps](https://github.com/mikhaelsantos/aws-lambda-https-to-amqps) - Forwards amps messages from API Gateway to RabbitMQ.
@@ -221,6 +220,7 @@ This section is for both single functions and applications composed of multiple 
 * [docker-lambda](https://github.com/lambci/docker-lambda) - Docker images and test runners that replicate the live AWS Lambda environment
 * [formplug-serverless](https://github.com/danielireson/formplug-serverless) - A form forwarding service for AWS Lambda that you can use to accept form submissions by email without server-side code.
 * [goad](https://github.com/goadapp/goad) - An AWS Lambda powered, highly distributed, load testing tool built in Go.
+* [iopipe](https://github.com/iopipe/iopipe) - AWS Lambda metrics, tracing, & analytics for NodeJS. See [www.iopipe.com](https://www.iopipe.com/) for details.
 * [iopipe-python](https://github.com/iopipe/iopipe-python) - This package provides analytics and distributed tracing for event-driven applications running on AWS Lambda.
 * [iron-io/lambda](https://github.com/iron-io/lambda) - A set of tools, tests and libraries to convert Amazon AWS Lambda functions into Docker images that can run on any computer or cloud provider.
 * [jiffy-route-builder](https://github.com/jiffycloud/jiffy-route-builder) - A tiny module (<5KB) to create lightweight API handlers using Node.js with AWS Lambda and API Gateway. Uses another tiny (<2KB) library called [route-recognizer](https://github.com/tildeio/route-recognizer) to match URLs against routing patterns, and forwards requests to handler functions. Written in TypeScript so you have type information available - especially useful to figure out what's available in the request that API Gateway sends to your handler.
