@@ -12,6 +12,7 @@
 
 - [Frameworks](#frameworks)
   - [apex](#apex)
+  - [architect](#arc)
   - [brutus](#brutus)
   - [chalice](#chalice)
   - [dawson-cli](#dawson-cli)
@@ -45,6 +46,19 @@ This list is under the [Apache 2.0 license](https://github.com/unixorn/aws-lambd
 ### [apex](http://apex.run/)
 
 Apex lets you use languages that are not natively supported by AWS Lambda, such as Golang, through the use of a Node.js shim injected into the build. A variety of workflow related tooling is provided for testing functions, rolling back deploys, viewing metrics, tailing logs, hooking into the build system and more.
+
+### [architect](https://arc.codes)
+
+Architect defines infrastructure in a simple plaintext manifest `.arc` and utilizes npm script based workflows for provisioning cloud infrastructure in minutes and deploying in seconds. 
+
+Infra primitives supported:
+
+- API Gateway Lambda functions; HTTP route handler functions for application/json and text/html
+- SNS Lambda functions (and publish events from any other function)
+- CloudWatch Events scheduled Lambda functions
+- DynamoDB Database tables, indexes, and trigger Lambda functions 
+
+Architect governance is under the JS Foundation umbrella and is Apache 2.0 licensed.
 
 ### [brutus](https://github.com/milesgranger/brutus)
 
