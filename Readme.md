@@ -12,7 +12,7 @@
 
 - [Frameworks](#frameworks)
   - [apex](#apex)
-  - [architect](#arc)
+  - [architect](#architect)
   - [brutus](#brutus)
   - [chalice](#chalice)
   - [dawson-cli](#dawson-cli)
