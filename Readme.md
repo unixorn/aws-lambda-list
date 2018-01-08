@@ -62,7 +62,7 @@ Another Javascript serverless framework for AWS Lambda and API Gateway.
 
 ### [dawson-cli](https://github.com/dawson-org/dawson-cli)
 
-A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API Gateway, Lambda). More details at [https://dawson.sh](https://dawson.sh).
+A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API Gateway, Lambda).
 
 ### [Hexaville](https://github.com/noppoMan/Hexaville)
 
