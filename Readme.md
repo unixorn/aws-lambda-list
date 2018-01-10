@@ -49,14 +49,14 @@ Apex lets you use languages that are not natively supported by AWS Lambda, such 
 
 ### [architect](https://arc.codes)
 
-Architect defines infrastructure in a simple plaintext manifest `.arc` and utilizes npm script based workflows for provisioning cloud infrastructure in minutes and deploying in seconds. 
+Architect defines infrastructure in a simple plaintext manifest `.arc` and utilizes npm script based workflows for provisioning cloud infrastructure in minutes and deploying in seconds.
 
 Infra primitives supported:
 
 - API Gateway Lambda functions; HTTP route handler functions for application/json and text/html
 - SNS Lambda functions (and publish events from any other function)
 - CloudWatch Events scheduled Lambda functions
-- DynamoDB Database tables, indexes, and trigger Lambda functions 
+- DynamoDB Database tables, indexes, and trigger Lambda functions
 
 Architect governance is under the JS Foundation umbrella and is Apache 2.0 licensed.
 
@@ -154,6 +154,7 @@ This section is for both single functions and applications composed of multiple 
 * [aws-maintenance-lambda (traveloka)](https://github.com/traveloka/aws-maintenance-lambda) - Trigger Jira Issue Creation from AWS Health Events.
 * [aws-monitor](https://github.com/zulily/aws_monitor) - Run periodically as an AWS Lambda, will detect your instances, add CloudWatch alerting for each, and create CloudWatch dashboards based on your preferences.
 * [aws-ses-to-elasticsearch](https://github.com/ScheduleOnce/aws-ses-to-elasticsearch) - SES is capable of sending reports about email delivery (deliveries, bounces, rejects) to SNS. However, there's no built in way to pipe these reports into something like Elastic Search. This Lambda function bridges the gap and allows to send the reports to ES.
+* [ballerina-lambda](https://github.com/chrishantha/ballerina-lambda) - Run a [Ballerina](https://ballerinalang.org/) service as a Lambda.
 * [binaryalert](https://github.com/airbnb/binaryalert) - Serverless, Real-time & Retroactive Malware Detection.
 * [BucketSnake](https://github.com/Netflix-Skunkworks/bucketsnake) - Provisions S3 access for IAM roles. A primary feature of Bucket Snake is to crete IAM roles that reside in the account where the S3 buckets live to facilitate proper cross-account S3 bucket access (via a role assumption).
 * [chalice-transmogrify](https://github.com/uncompiled/chalice-transmogrify) - Python Microservice that transforms arbitrary XML/RSS to JSON.
