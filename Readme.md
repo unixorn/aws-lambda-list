@@ -188,6 +188,7 @@ This section is for both single functions and applications composed of multiple 
 * [pricing-tools](https://github.com/concurrencylabs/aws-pricing-tools) - A Lambda function that calculates near real-time price of an account's infrastructure including EC2, ELB, EBS, RDS, Lambda, Dynamo DB and Kinesis resources.
 * [rds_snapshot_copier](https://github.com/myoung34/DevOps/tree/master/aws/lambda/rds_snapshot_copier) - Copies automatic RDS snapshots so that they're safe from terraform.
 * [reaper-lambda](https://github.com/gabinante/reaper-lambda) - Reaps any and all instances which are not tagged with an expiration date.
+* [redshift-loader](https://github.com/awslabs/aws-lambda-redshift-loader) - An Amazon Redshift Database Loader implemented in AWS Lambda.
 * [redshift_snapshot_copier](https://github.com/myoung34/DevOps/tree/master/aws/lambda/redshift_snapshot_copier) - Copies automatic redshift snapshots so that they're safe from terraform.
 * [s3-file-copier](https://github.com/roberthelmick08/aws-lambda-s3-file-copier) - Lambda function that copies files from source S3 bucket to target bucket upon upload.
 * [send-ses-email](https://github.com/eleven41/aws-lambda-send-ses-email) - Send emails using Amazon SES. The primary purpose of this function is to provide a server-side back-end for sending emails from static websites.
