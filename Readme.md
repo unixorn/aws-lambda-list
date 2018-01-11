@@ -15,6 +15,7 @@
   - [architect](#architect)
   - [brutus](#brutus)
   - [chalice](#chalice)
+  - [colly](#colly)
   - [dawson-cli](#dawson-cli)
   - [Hexaville](#hexaville)
   - [power-jambda](#power-jambda)
@@ -24,6 +25,7 @@
   - [Rumbda](#rumbda)
   - [Serverless](#serverless)
   - [Serverless Golang](#serverless-golang)
+  - [Sparta](#sparta)
   - [Up](#up)
   - [Webda](#webda)
   - [Zappa](#zappa)
@@ -49,14 +51,14 @@ Apex lets you use languages that are not natively supported by AWS Lambda, such 
 
 ### [architect](https://arc.codes)
 
-Architect defines infrastructure in a simple plaintext manifest `.arc` and utilizes npm script based workflows for provisioning cloud infrastructure in minutes and deploying in seconds. 
+Architect defines infrastructure in a simple plaintext manifest `.arc` and utilizes npm script based workflows for provisioning cloud infrastructure in minutes and deploying in seconds.
 
 Infra primitives supported:
 
 - API Gateway Lambda functions; HTTP route handler functions for application/json and text/html
 - SNS Lambda functions (and publish events from any other function)
 - CloudWatch Events scheduled Lambda functions
-- DynamoDB Database tables, indexes, and trigger Lambda functions 
+- DynamoDB Database tables, indexes, and trigger Lambda functions
 
 Architect governance is under the JS Foundation umbrella and is Apache 2.0 licensed.
 
@@ -154,6 +156,7 @@ This section is for both single functions and applications composed of multiple 
 * [aws-maintenance-lambda (traveloka)](https://github.com/traveloka/aws-maintenance-lambda) - Trigger Jira Issue Creation from AWS Health Events.
 * [aws-monitor](https://github.com/zulily/aws_monitor) - Run periodically as an AWS Lambda, will detect your instances, add CloudWatch alerting for each, and create CloudWatch dashboards based on your preferences.
 * [aws-ses-to-elasticsearch](https://github.com/ScheduleOnce/aws-ses-to-elasticsearch) - SES is capable of sending reports about email delivery (deliveries, bounces, rejects) to SNS. However, there's no built in way to pipe these reports into something like Elastic Search. This Lambda function bridges the gap and allows to send the reports to ES.
+* [ballerina-lambda](https://github.com/chrishantha/ballerina-lambda) - Run a [Ballerina](https://ballerinalang.org/) service as a Lambda.
 * [binaryalert](https://github.com/airbnb/binaryalert) - Serverless, Real-time & Retroactive Malware Detection.
 * [BucketSnake](https://github.com/Netflix-Skunkworks/bucketsnake) - Provisions S3 access for IAM roles. A primary feature of Bucket Snake is to crete IAM roles that reside in the account where the S3 buckets live to facilitate proper cross-account S3 bucket access (via a role assumption).
 * [chalice-transmogrify](https://github.com/uncompiled/chalice-transmogrify) - Python Microservice that transforms arbitrary XML/RSS to JSON.
@@ -185,6 +188,7 @@ This section is for both single functions and applications composed of multiple 
 * [pricing-tools](https://github.com/concurrencylabs/aws-pricing-tools) - A Lambda function that calculates near real-time price of an account's infrastructure including EC2, ELB, EBS, RDS, Lambda, Dynamo DB and Kinesis resources.
 * [rds_snapshot_copier](https://github.com/myoung34/DevOps/tree/master/aws/lambda/rds_snapshot_copier) - Copies automatic RDS snapshots so that they're safe from terraform.
 * [reaper-lambda](https://github.com/gabinante/reaper-lambda) - Reaps any and all instances which are not tagged with an expiration date.
+* [redshift-loader](https://github.com/awslabs/aws-lambda-redshift-loader) - An Amazon Redshift Database Loader implemented in AWS Lambda.
 * [redshift_snapshot_copier](https://github.com/myoung34/DevOps/tree/master/aws/lambda/redshift_snapshot_copier) - Copies automatic redshift snapshots so that they're safe from terraform.
 * [s3-file-copier](https://github.com/roberthelmick08/aws-lambda-s3-file-copier) - Lambda function that copies files from source S3 bucket to target bucket upon upload.
 * [send-ses-email](https://github.com/eleven41/aws-lambda-send-ses-email) - Send emails using Amazon SES. The primary purpose of this function is to provide a server-side back-end for sending emails from static websites.
