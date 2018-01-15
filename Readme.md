@@ -162,7 +162,7 @@ This section is for both single functions and applications composed of multiple 
 * [chalice-transmogrify](https://github.com/uncompiled/chalice-transmogrify) - Python Microservice that transforms arbitrary XML/RSS to JSON.
 * [chaos-lambda](https://github.com/shoreditch-ops/chaos-lambda) - A Serverless implementation of Netflix's [Chaos Monkey](https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey) for AWS (runs on AWS Lambda).
 * [chef-node-cleanup](https://github.com/awslabs/lambda-chef-node-cleanup) - Automatically Delete Terminated Instances in Chef Server with AWS Lambda when triggered by CloudWatch instance termination events.
-* [chromeless](https://github.com/lagleki/chromeless) - Chrome automation made simple. Runs locally or headless on AWS Lambda. See [https://chromeless.netlify.com](https://chromeless.netlify.com) for more details.
+* [chromeless](https://github.com/graphcool/chromeless) - Chrome automation made simple. Runs locally or headless on AWS Lambda. See [https://chromeless.netlify.com](https://chromeless.netlify.com) for more details.
 * [cloudwatch-logs-shipper-logzio-lambda](https://github.com/logzio/cloudwatch-logs-shipper-lambda) - Ships Cloudwatch Logs to [logz.io](logz.io).
 * [cwlogs2sns](https://github.com/jakubknejzlik/cwlogs2sns) - AWS CloudWatch to SNS handler for AWS Lambda.
 * [ddns-function](https://github.com/awslabs/aws-lambda-ddns-function) - Dynamically create Route 53 resource records using CloudWatch Events and AWS Lambda.
@@ -220,6 +220,7 @@ This section is for both single functions and applications composed of multiple 
 
 * [AWS IOT Button Example](https://github.com/mongoose-os-apps/aws-iot-button) - This is an Internet Button reference project: when a button on the device is pressed, a cloud backend gets a notification and performs an action. In this particular case, AWS Lambda function sends an email to the specific email address.
 * [aws-lambda-vpc-nat-examples](https://github.com/ittus/aws-lambda-vpc-nat-examples) - Example of setting up AWS lambda function with VPC and NAT.
+* [Creating A Highly Scalable Website Monitoring Service in half an hour using AWS Lambda](https://hackernoon.com/creating-a-website-monitoring-service-in-half-an-hour-using-lambdas-4f64fb199df3?__s=utowzfvzgmud62nwkf2p) - This article describes building a Website uptime monitor that will allow people to fill in a form and automagically create a new lambda function  that will check the health of the site every 15 minutes and send  an email should one of these sites die.
 * [How to Use Python 3 Type Hints in AWS Lambda](https://gist.github.com/alexcasalboni/a545b68ee164b165a74a20a5fee9d133) - Static Type Checkers help you find simple (but subtle) bugs in your Python code. Check out lambda_types.py and incrementally improve your code base and development/debugging experience with type hints.
 * [Lambda Tutorial: Lambda + Serverless = HAPPY](https://www.youtube.com/watch?v=71cd5XerKss)
 * [Learning Lambda](https://blog.symphonia.io/learning-lambda-1f25af64161c) - Mike Roberts' series on learning to use Lambda
