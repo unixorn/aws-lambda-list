@@ -242,6 +242,7 @@ This section is for both single functions and applications composed of multiple 
 * [docker-lambda](https://github.com/lambci/docker-lambda) - Docker images and test runners that replicate the live AWS Lambda environment
 * [formplug-serverless](https://github.com/danielireson/formplug-serverless) - A form forwarding service for AWS Lambda that you can use to accept form submissions by email without server-side code.
 * [goad](https://github.com/goadapp/goad) - An AWS Lambda powered, highly distributed, load testing tool built in Go.
+* [http-lambda](https://github.com/nextmetaphor/http-lambda) - A simple golang-based utility which enables AWS Lambda functions to be invoked from an HTTP endpoint. Use if you want to expose Lambda functions over HTTP without using the AWS API Gateway.
 * [iopipe](https://github.com/iopipe/iopipe) - AWS Lambda metrics, tracing, & analytics for NodeJS. See [www.iopipe.com](https://www.iopipe.com/) for details.
 * [iopipe-python](https://github.com/iopipe/iopipe-python) - This package provides analytics and distributed tracing for event-driven applications running on AWS Lambda.
 * [iron-io/lambda](https://github.com/iron-io/lambda) - A set of tools, tests and libraries to convert Amazon AWS Lambda functions into Docker images that can run on any computer or cloud provider.
