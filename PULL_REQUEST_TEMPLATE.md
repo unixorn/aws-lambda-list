@@ -18,10 +18,10 @@
 
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 
-- [ ] I have confirmed that the link(s) in my PR are valid.
-- [ ] My entries are single lines (unless they're a framework) and are in the appropriate (functions, frameworks, resources) section.
-- [ ] My entries have been added in alphabetical order in their section.
+- [ ] I have confirmed that the link(s) in my PR work.
+- [ ] All entries in the PR are single lines (unless they're a framework) and are in the appropriate (functions, frameworks, resources) section.
+- [ ] New entries have been added in alphabetical order in their section.
 - [ ] I have read the **CONTRIBUTING** document.
 - [ ] All new and existing tests passed.
-- [ ] I have stripped leading **aws-** or **aws-lambda-** from the link name. This makes it easier to find things by name since there aren't big clusters in the A sections of the lists
+- [ ] I have stripped leading **aws-** or **aws-lambda-** from the link name. This makes it easier to find things by name by preventing a big clusters in the A sections of the sublists.
 - [ ] This list is Apache 2.0 licensed, and I agree that my PR is subject to that license.
