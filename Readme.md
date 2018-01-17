@@ -169,6 +169,7 @@ This section is for both single functions and applications composed of multiple 
 * [ebs_snapper](https://github.com/rackerlabs/ebs_snapper) - Allows you to schedule regular EBS snapshots and clean up EBS snapshots on EC2, as well as replicate snapshots to a secondary EC2 region.
 * [ecs-host-service-scale](https://github.com/miketheman/ecs-host-service-scale) - Lambda function to ensure an ECS Service is set to the correct Desired Count for a One-Task-Per-Host placement value for any cluster that runs the Service.
 * [felix](https://github.com/Cimpress-MCP/felix) - Automate the rotation of IAM keys used by third-party services. Felix is aimed at making it easy to manage IAM keys in third-party services like SumoLogic and GitLab. It aims to be easily extensible by both built-in providers and external plugins.
+* [git2params](https://github.com/getsocial-rnd/git2params) - Lambda based tool for syncing configuration from Git repositories to AWS SSM Parameter Store.
 * [github-s3-deploy](https://github.com/nytlabs/github-s3-deploy) - AWS Lambda function, triggered by Github/SNS webhook, to sync new commits in an S3 bucket.
 * [honeyλ](https://github.com/0x4D31/honeyLambda) - A simple, serverless application designed to create and monitor fake HTTP endpoints (i.e. URL honeytokens) automatically, on top of AWS Lambda and Amazon API Gateway.
 * [houdini](https://github.com/citruspi/houdini) - Houdini runs on AWS Lambda and executes commands on remote hosts over SSH using [Paramiko](http://www.paramiko.org/). The host address, username, command, and private key name are provided by the consumer in the Lambda event, the command is executed, and the contents of stdin, stdout, and stderr are returned. The actual content of the private key used for establishing the SSH connection is encrypted with an [AWS KMS](https://aws.amazon.com/kms/) key and stored in [AWS SSM Parameter Store](https://aws.amazon.com/systems-manager/features/#Parameter_Store).
@@ -228,6 +229,7 @@ This section is for both single functions and applications composed of multiple 
 
 ### Utilities
 
+* [amazon-rust](https://github.com/Luke-Nukem/amazon-rust) - A docker image for compiling Rust for use with AWS Lambdas. This is an image created from the base Amazon ECS image with the Rust compiler preinstalled. It is helpful for compiling Rust code for use in Amazon Lambda functions.
 * [api-gateway-sim](https://github.com/elitechance/api-gateway-sim) - API Gateway simulator for Node JS Lambda that allows you to test your Lambda function locally.
 * [aws-lambda-dotnet](https://github.com/aws/aws-lambda-dotnet) - Libraries, samples and tools to help .NET Core developers develop AWS Lambda functions.
 * [aws-lambda-runner](https://github.com/kevinsimard/aws-lambda-runner) - An AWS Lambda Java simulator that allows running and debugging Lambda functions authored in Java locally.
@@ -240,6 +242,7 @@ This section is for both single functions and applications composed of multiple 
 * [docker-lambda](https://github.com/lambci/docker-lambda) - Docker images and test runners that replicate the live AWS Lambda environment
 * [formplug-serverless](https://github.com/danielireson/formplug-serverless) - A form forwarding service for AWS Lambda that you can use to accept form submissions by email without server-side code.
 * [goad](https://github.com/goadapp/goad) - An AWS Lambda powered, highly distributed, load testing tool built in Go.
+* [http-lambda](https://github.com/nextmetaphor/http-lambda) - A simple golang-based utility which enables AWS Lambda functions to be invoked from an HTTP endpoint. Use if you want to expose Lambda functions over HTTP without using the AWS API Gateway.
 * [iopipe](https://github.com/iopipe/iopipe) - AWS Lambda metrics, tracing, & analytics for NodeJS. See [www.iopipe.com](https://www.iopipe.com/) for details.
 * [iopipe-python](https://github.com/iopipe/iopipe-python) - This package provides analytics and distributed tracing for event-driven applications running on AWS Lambda.
 * [iron-io/lambda](https://github.com/iron-io/lambda) - A set of tools, tests and libraries to convert Amazon AWS Lambda functions into Docker images that can run on any computer or cloud provider.
