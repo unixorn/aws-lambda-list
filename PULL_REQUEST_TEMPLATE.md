@@ -10,8 +10,9 @@
 <!--- What types of changes does your submission introduce? Put an `x` in all the boxes that apply: -->
 
 - [ ] A link to an external resource like a blog post or video
-- [ ] Add/remove a lambda function
 - [ ] Add/remove a framework
+- [ ] Add/remove a lambda function
+- [ ] Add/remove a utility
 - [ ] Text cleanups/typo fixes
 
 # Checklist:
