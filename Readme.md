@@ -227,6 +227,7 @@ This section is for both single functions and applications composed of multiple 
 * [I’m afraid you’re thinking about AWS Lambda cold starts all wrong](https://hackernoon.com/im-afraid-you-re-thinking-about-aws-lambda-cold-starts-all-wrong-7d907f278a4f) - Good description of how AWS Lambda Cold Starts will affect your serverless app performance and some ways to mitigate them.
 * [Lambda Tutorial: Lambda + Serverless = HAPPY](https://www.youtube.com/watch?v=71cd5XerKss)
 * [Learning Lambda](https://blog.symphonia.io/learning-lambda-1f25af64161c) - Mike Roberts' series on learning to use Lambda
+* [Monitor multiple MySQL RDS with single Lambda function](https://blog.powerupcloud.com/monitor-multiple-mysql-rds-with-single-lambda-function-638729751121) - Tutorial on monitoring multiple RDS databases with a single Lambda function.
 * [Nightmare-lambda-tutorial](https://github.com/dimkir/nightmare-lambda-tutorial) - A sample project and tutorial to show how to run NightmareJS on AWS Lambda.
 
 ### Utilities
