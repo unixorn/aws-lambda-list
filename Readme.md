@@ -196,6 +196,7 @@ This section is for both single functions and applications composed of multiple 
 * [redshift-loader](https://github.com/awslabs/aws-lambda-redshift-loader) - An Amazon Redshift Database Loader implemented in AWS Lambda.
 * [redshift_snapshot_copier](https://github.com/myoung34/DevOps/tree/master/aws/lambda/redshift_snapshot_copier) - Copies automatic redshift snapshots so that they're safe from terraform.
 * [s3-file-copier](https://github.com/roberthelmick08/aws-lambda-s3-file-copier) - Lambda function that copies files from source S3 bucket to target bucket upon upload.
+* [send-email](https://github.com/0x4447/0x4447-Toolbox-AWS-Lambda-Send-Email) - Send email using SES.
 * [send-ses-email](https://github.com/eleven41/aws-lambda-send-ses-email) - Send emails using Amazon SES. The primary purpose of this function is to provide a server-side back-end for sending emails from static websites.
 * [serverless-ami-replicator](https://github.com/miztiik/serverless-ami-replicator) - Replicate AMIs across AWS Regions.
 * [serverless-backup](https://github.com/miztiik/serverless-backup) - A simple AWS Boto3 script to trigger EBS Snapshots using Lambda Functions.
