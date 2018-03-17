@@ -184,7 +184,6 @@ This section is for both single functions and applications composed of multiple 
 * [lambda-packs](https://github.com/ryfeus/lambda-packs) - Precompiled packages for Lambda.
 * [lambdaproxy](https://github.com/dan-v/awslambdaproxy) - Lambda powered HTTP/SOCKS web proxy.
 * [LambdAuth](https://github.com/danilop/LambdAuth) - Sample authentication service implemented with a server-less architecture, using AWS Lambda to host and execute the code and Amazon DynamoDB as persistent storage. This provides a cost-efficient solution that is scalable and highly available and can be used with Amazon Cognito for Developer Authenticated Identities.
-* [lambdify](https://github.com/Prefinem/lambdify) - Lambdify is a set of tools to make it much easier to build and consume AWS Lambda functions.
 * [LambStatus](https://github.com/ks888/LambStatus) - Serverless Status Page System [lambstatus.github.io](https://lambstatus.github.io/). Eases pain caused by scaling / availability issues. It is terrible if your service is down AND heavy traffic from stuck users stops your status page.
 * [letsencrypt](https://github.com/ubergeek42/lambda-letsencrypt) - Use [AWS Lambda](https://aws.amazon.com/lambda/) to manage SSL certificates for any site that uses [Amazon's CloudFront CDN](https://aws.amazon.com/cloudfront/).
 * [MoonMail](https://github.com/microapps/MoonMail) - Sends email marketing campaigns with [Amazon SES](https://moonmail.io/amazon-ses-email-marketing/).
@@ -252,8 +251,8 @@ This section is for both single functions and applications composed of multiple 
 * [formplug-serverless](https://github.com/danielireson/formplug-serverless) - A form forwarding service for AWS Lambda that you can use to accept form submissions by email without server-side code.
 * [goad](https://github.com/goadapp/goad) - An AWS Lambda powered, highly distributed, load testing tool built in Go.
 * [http-lambda](https://github.com/nextmetaphor/http-lambda) - A simple golang-based utility which enables AWS Lambda functions to be invoked from an HTTP endpoint. Use if you want to expose Lambda functions over HTTP without using the AWS API Gateway.
-* [iopipe](https://github.com/iopipe/iopipe) - AWS Lambda metrics, tracing, & analytics for NodeJS. See [www.iopipe.com](https://www.iopipe.com/) for details.
 * [iopipe-python](https://github.com/iopipe/iopipe-python) - This package provides analytics and distributed tracing for event-driven applications running on AWS Lambda.
+* [iopipe](https://github.com/iopipe/iopipe) - AWS Lambda metrics, tracing, & analytics for NodeJS. See [www.iopipe.com](https://www.iopipe.com/) for details.
 * [iron-io/lambda](https://github.com/iron-io/lambda) - A set of tools, tests and libraries to convert Amazon AWS Lambda functions into Docker images that can run on any computer or cloud provider.
 * [jiffy-route-builder](https://github.com/jiffycloud/jiffy-route-builder) - A tiny module (<5KB) to create lightweight API handlers using Node.js with AWS Lambda and API Gateway. Uses another tiny (<2KB) library called [route-recognizer](https://github.com/tildeio/route-recognizer) to match URLs against routing patterns, and forwards requests to handler functions. Written in TypeScript so you have type information available - especially useful to figure out what's available in the request that API Gateway sends to your handler.
 * [lambda-deployer](https://github.com/mdevilliers/lambda-deployer) - Automate the deployment of AWS Lambda functions easily from either a developers machine or CI system.
@@ -266,6 +265,7 @@ This section is for both single functions and applications composed of multiple 
 * [lambdaSH](https://github.com/alestic/lambdash) - Run shell commands inside AWS Lambda environment
 * [lambdaskill](https://github.com/michaeluhl/lambdaskill) - A simple Python 3 toolkit to build Alexa Skills using AWS Lambda.
 * [lambdaWrap](https://github.com/Cimpress-MCP/LambdaWrap) - Ruby gem to simplify deployment of AWS Lambda based web services.
+* [lambdify](https://github.com/Prefinem/lambdify) - Lambdify is a set of tools to make it much easier to build and consume AWS Lambda functions.
 * [python-vendor](https://github.com/joshringer/python-vendor) - Provides an AWS service API for building compiled Python packages, ready for use in your own AWS Lambda functions.
 * [simple-lambda-mailer](https://github.com/hendrickson02/simple-lambda-mailer) - A simple mailer that you can use in a web blog and call via an API.
 * [simple-lambda-router](https://github.com/brunomorency/simple-lambda-router) - A small router utility for lambda functions handling HTTP events from multiple resources and methods.
