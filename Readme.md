@@ -214,6 +214,7 @@ This section is for both single functions and applications composed of multiple 
 * [StreamAlert](https://github.com/airbnb/streamalert) - StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define.
 * [sumologic-aws-lambda-unzip](https://github.com/frankreno/sumologic-aws-lambda-unzip) - Java Lambda function that can uncompress a zip file, read the files inside and send them to Sumo Logic.
 * [url-shortener](https://github.com/guihaojin/url-shortener) - URL Shortener service built with serverless framework on AWS, API Gateway + Lambda + DynamoDB.
+* [watchtower](https://github.com/wmnnd/lambda-watchtower) - Serverless HTTP(S) Endpoint Monitoring With AWS Lambda & CloudWatch.
 
 ## Other Resources
 
