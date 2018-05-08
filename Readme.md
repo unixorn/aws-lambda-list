@@ -84,6 +84,10 @@ A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API G
 
 Hexaville is a serverless framework for Swift using AWS Lambda + ApiGateway etc as a back end. Build applications in Swift comprised of microservices that run in response to events, automatically scale to meet demand, and only be charged for time actually spent running.
 
+### [middy](https://github.com/middyjs/middy)
+
+Middy is a very simple middleware engine. If you are used to web frameworks like express, than you will be familiar with the concepts adopted in Middy and you will be able to get started very quickly.
+
 ### [power-jambda](https://github.com/visionarts/power-jambda)
 
 A Java serverless microframework for RESTful API that allows you to quickly develop applications that use Amazon API Gateway and AWS Lambda.
