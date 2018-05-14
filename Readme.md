@@ -23,6 +23,7 @@
   - [python-lambdarest](#python-lambdarest)
   - [Pyverless](#pyverless)
   - [Rumbda](#rumbda)
+  - [Scar](#scar)
   - [Serverless](#serverless)
   - [Serverless Golang](#serverless-golang)
   - [Sparta](#sparta)
