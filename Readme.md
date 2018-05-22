@@ -23,6 +23,7 @@
   - [python-lambdarest](#python-lambdarest)
   - [Pyverless](#pyverless)
   - [Rumbda](#rumbda)
+  - [Scar](#scar)
   - [Serverless](#serverless)
   - [Serverless Golang](#serverless-golang)
   - [Sparta](#sparta)
@@ -121,6 +122,10 @@ Pyverless is a mini-framework with a bunch of utilities that aims to help you cr
 ### [Rumbda](https://github.com/kleaver/rumbda)
 
 Rumbda does everything necessary to build a zip file for running ruby inside of an AWS Lambda. This includes downloading [traveling ruby](https://github.com/phusion/traveling-ruby), creating a bundle of the project's Gemfile dependencies, and creating a consumable .zip file for use with Lambda.
+
+### [Scar](https://github.com/grycap/scar)
+
+SCAR is a framework to transparently execute containers out of Docker images in AWS Lambda, in order to run applications and code in virtually any programming language (see examples for Ruby, R, Erlang and Elixir) on AWS Lambda.
 
 ### [Serverless](https://www.serverless.com)
 
