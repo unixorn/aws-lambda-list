@@ -279,6 +279,5 @@ This section is for both single functions and applications composed of multiple 
 * [lambdaWrap](https://github.com/Cimpress-MCP/LambdaWrap) - Ruby gem to simplify deployment of AWS Lambda based web services.
 * [lambdify](https://github.com/Prefinem/lambdify) - Lambdify is a set of tools to make it much easier to build and consume AWS Lambda functions.
 * [python-vendor](https://github.com/joshringer/python-vendor) - Provides an AWS service API for building compiled Python packages, ready for use in your own AWS Lambda functions.
-* [simple-lambda-mailer](https://github.com/hendrickson02/simple-lambda-mailer) - A simple mailer that you can use in a web blog and call via an API.
 * [simple-lambda-router](https://github.com/brunomorency/simple-lambda-router) - A small router utility for lambda functions handling HTTP events from multiple resources and methods.
 * [webpack-aws-lambda-upload-plugin](https://github.com/sirceljm/webpack-aws-lambda-upload-plugin) - Zip and upload your AWS Lambda function directly from webpack.
