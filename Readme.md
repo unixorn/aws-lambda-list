@@ -249,7 +249,7 @@ This section is for both single functions and applications composed of multiple 
 
 ### Utilities
 
-* [amazon-rust](https://github.com/Luke-Nukem/amazon-rust) - A docker image for compiling Rust for use with AWS Lambdas. This is an image created from the base Amazon ECS image with the Rust compiler preinstalled. It is helpful for compiling Rust code for use in Amazon Lambda functions.
+* [amazon-rust](https://github.com/VICEMedia/amazon-rust) - A thin [Rust](https://www.rust-lang.org/) layer on top of the official [Amazon Linux](https://hub.docker.com/_/amazonlinux/) docker image. Suitable for both local development and continuous deployment/integration workflows. Perfect for pre-building building binaries that target various [AWS](https://aws.amazon.com) services.
 * [api-gateway-sim](https://github.com/elitechance/api-gateway-sim) - API Gateway simulator for Node JS Lambda that allows you to test your Lambda function locally.
 * [aws-lambda-dotnet](https://github.com/aws/aws-lambda-dotnet) - Libraries, samples and tools to help .NET Core developers develop AWS Lambda functions.
 * [aws-lambda-runner](https://github.com/kevinsimard/aws-lambda-runner) - An AWS Lambda Java simulator that allows running and debugging Lambda functions authored in Java locally.
