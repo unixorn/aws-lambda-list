@@ -232,6 +232,7 @@ This section is for both single functions and applications composed of multiple 
 ### Miscellaneous
 
 * [aws-lambda-cheatsheet](https://github.com/srcecde/aws-lambda-cheatsheet) - A cheatsheet for AWS Lambda (focuses on Python)
+* [Reverse Engineering AWS Lambda](https://www.denialof.services/lambda/) - This is a great article spelunking through the details of how lambdas actually work under the covers.
 
 ### Tutorials
 
@@ -248,7 +249,7 @@ This section is for both single functions and applications composed of multiple 
 
 ### Utilities
 
-* [amazon-rust](https://github.com/Luke-Nukem/amazon-rust) - A docker image for compiling Rust for use with AWS Lambdas. This is an image created from the base Amazon ECS image with the Rust compiler preinstalled. It is helpful for compiling Rust code for use in Amazon Lambda functions.
+* [amazon-rust](https://github.com/VICEMedia/amazon-rust) - A thin [Rust](https://www.rust-lang.org/) layer on top of the official [Amazon Linux](https://hub.docker.com/_/amazonlinux/) docker image. Suitable for both local development and continuous deployment/integration workflows. Perfect for pre-building building binaries that target various [AWS](https://aws.amazon.com) services.
 * [api-gateway-sim](https://github.com/elitechance/api-gateway-sim) - API Gateway simulator for Node JS Lambda that allows you to test your Lambda function locally.
 * [aws-lambda-dotnet](https://github.com/aws/aws-lambda-dotnet) - Libraries, samples and tools to help .NET Core developers develop AWS Lambda functions.
 * [aws-lambda-runner](https://github.com/kevinsimard/aws-lambda-runner) - An AWS Lambda Java simulator that allows running and debugging Lambda functions authored in Java locally.
@@ -278,6 +279,5 @@ This section is for both single functions and applications composed of multiple 
 * [lambdaWrap](https://github.com/Cimpress-MCP/LambdaWrap) - Ruby gem to simplify deployment of AWS Lambda based web services.
 * [lambdify](https://github.com/Prefinem/lambdify) - Lambdify is a set of tools to make it much easier to build and consume AWS Lambda functions.
 * [python-vendor](https://github.com/joshringer/python-vendor) - Provides an AWS service API for building compiled Python packages, ready for use in your own AWS Lambda functions.
-* [simple-lambda-mailer](https://github.com/hendrickson02/simple-lambda-mailer) - A simple mailer that you can use in a web blog and call via an API.
 * [simple-lambda-router](https://github.com/brunomorency/simple-lambda-router) - A small router utility for lambda functions handling HTTP events from multiple resources and methods.
 * [webpack-aws-lambda-upload-plugin](https://github.com/sirceljm/webpack-aws-lambda-upload-plugin) - Zip and upload your AWS Lambda function directly from webpack.
