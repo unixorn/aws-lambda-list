@@ -232,6 +232,7 @@ This section is for both single functions and applications composed of multiple 
 ### Miscellaneous
 
 * [aws-lambda-cheatsheet](https://github.com/srcecde/aws-lambda-cheatsheet) - A cheatsheet for AWS Lambda (focuses on Python)
+* [Reverse Engineering AWS Lambda](https://www.denialof.services/lambda/) - This is a great article spelunking through the details of how lambdas actually work under the covers.
 
 ### Tutorials
 
