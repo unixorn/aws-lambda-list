@@ -158,6 +158,7 @@ Zappa makes it super easy to build and deploy server-less, event-driven Python a
 This section is for both single functions and applications composed of multiple interconnected AWS lambda functions.
 
 * [auto-tag](https://github.com/GorillaStack/auto-tag) - An open-source tagging solution for AWS. Deploy auto tag to Lambda and set up CloudTrail and have each of your resources tagged with the resource who created it.
+* [aws-faas-form](https://github.com/benkehoe/faas-form) - A command line tool invoking self-describing Lambda functions to help developers and administrators provide interfaces to Lambdas that are designed to be invoked directly by users. This allows Lambda functions to replace client-side scripts for interactions with resources running on AWS.
 * [aws-key-disabler](https://github.com/te-papa/aws-key-disabler) - Lambda Function that disables AWS IAM User Access Keys after a set amount of time in order to reduce the risk associated with old access keys.
 * [aws-lambda-blog-platform](https://github.com/sirceljm/aws-lambda-blog) - A complete blogging solution that uses the following Amazon Web Services for operation - API Gateway, Lambda, DynamoDB, S3, Cloudfront, SES.
 * [aws-maintenance-lambda (indix)](https://github.com/indix/aws-maintenance-lambda) - Send alerts (to Slack, HipChat) on AWS maintenance events.
