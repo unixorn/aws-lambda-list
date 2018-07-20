@@ -11,16 +11,17 @@
 ## Table of Contents
 
 - [Frameworks](#frameworks)
-  - [apex](#apex)
-  - [architect](#architect)
-  - [brutus](#brutus)
-  - [chalice](#chalice)
-  - [colly](#colly)
-  - [dawson-cli](#dawson-cli)
+  - [Apex](#apex)
+  - [Architect](#architect)
+  - [Brutus](#brutus)
+  - [Chalice](#chalice)
+  - [Colly](#colly)
+  - [Dawson-cli](#dawson-cli)
   - [Hexaville](#hexaville)
-  - [power-jambda](#power-jambda)
-  - [python-lambda](#python-lambda)
-  - [python-lambdarest](#python-lambdarest)
+  - [Middy](#middy)
+  - [Power-jambda](#power-jambda)
+  - [Python-lambda](#python-lambda)
+  - [Python-lambdarest](#python-lambdarest)
   - [Pyverless](#pyverless)
   - [Rumbda](#rumbda)
   - [Scar](#scar)
@@ -46,11 +47,11 @@ This list is under the [Apache 2.0 license](https://github.com/unixorn/aws-lambd
 
 ## Frameworks
 
-### [apex](http://apex.run/)
+### [Apex](http://apex.run/)
 
 Apex lets you use languages that are not natively supported by AWS Lambda, such as Golang, through the use of a Node.js shim injected into the build. A variety of workflow related tooling is provided for testing functions, rolling back deploys, viewing metrics, tailing logs, hooking into the build system and more.
 
-### [architect](https://arc.codes)
+### [Architect](https://arc.codes)
 
 Architect defines infrastructure in a simple plaintext manifest `.arc` and utilizes npm script based workflows for provisioning cloud infrastructure in minutes and deploying in seconds.
 
@@ -63,21 +64,21 @@ Infra primitives supported:
 
 Architect governance is under the JS Foundation umbrella and is Apache 2.0 licensed.
 
-### [brutus](https://github.com/milesgranger/brutus)
+### [Brutus](https://github.com/milesgranger/brutus)
 
 An HTTP/TCP Distributed Computing Framework in Python using Amazon Lambda functions.
 
 This is a working prototype, still under development. Not suitable for anything other than exploring, making suggestions/issues.
 
-### [chalice](https://github.com/aws/chalice)
+### [Chalice](https://github.com/aws/chalice)
 
 Chalice is Amazon's python serverless microframework for AWS. It allows you to quickly create and deploy applications that use Amazon API Gateway and AWS Lambda.
 
-### [colly](https://github.com/tmaslen/colly)
+### [Colly](https://github.com/tmaslen/colly)
 
 Another Javascript serverless framework for AWS Lambda and API Gateway.
 
-### [dawson-cli](https://github.com/dawson-org/dawson-cli)
+### [Dawson-cli](https://github.com/dawson-org/dawson-cli)
 
 A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API Gateway, Lambda).
 
@@ -85,19 +86,19 @@ A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API G
 
 Hexaville is a serverless framework for Swift using AWS Lambda + ApiGateway etc as a back end. Build applications in Swift comprised of microservices that run in response to events, automatically scale to meet demand, and only be charged for time actually spent running.
 
-### [middy](https://github.com/middyjs/middy)
+### [Middy](https://github.com/middyjs/middy)
 
 Middy is a very simple middleware engine. If you are used to web frameworks like express, than you will be familiar with the concepts adopted in Middy and you will be able to get started very quickly.
 
-### [power-jambda](https://github.com/visionarts/power-jambda)
+### [Power-jambda](https://github.com/visionarts/power-jambda)
 
 A Java serverless microframework for RESTful API that allows you to quickly develop applications that use Amazon API Gateway and AWS Lambda.
 
-### [python-lambda](https://github.com/nficano/python-lambda)
+### [Python-lambda](https://github.com/nficano/python-lambda)
 
 A toolkit for developing and deploying serverless Python code in AWS Lambda. The Python-Lambda library takes away the guess work of developing your Python-Lambda services by providing you a toolset to streamline the annoying parts.
 
-### [python-lambdarest](https://github.com/trustpilot/python-lambdarest)
+### [Python-lambdarest](https://github.com/trustpilot/python-lambdarest)
 
 Python routing mini-framework for AWS Lambda with optional JSON-schema validation.
 
