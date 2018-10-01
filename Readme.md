@@ -17,6 +17,7 @@
   - [Chalice](#chalice)
   - [Colly](#colly)
   - [Dawson-cli](#dawson-cli)
+  - [Funky](#funky)
   - [Hexaville](#hexaville)
   - [Middy](#middy)
   - [Power-jambda](#power-jambda)
@@ -81,6 +82,15 @@ Another Javascript serverless framework for AWS Lambda and API Gateway.
 ### [Dawson-cli](https://github.com/dawson-org/dawson-cli)
 
 A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API Gateway, Lambda).
+
+### [Funky](https://github.com/neapjs/funky)
+
+__*Universal Serverless Web Framework*__. Write code for serverless similar to [Express](https://expressjs.com/) once, deploy everywhere (thanks to the awesome [Zeit Now-CLI](https://zeit.co/now)). This also includes creating functions that can get triggered by [Google Cloud PubSub topics](https://cloud.google.com/pubsub/docs/overview).
+
+**Targeted platforms:**
+- [__*AWS Lambdas*__](https://aws.amazon.com/lambda)
+- [__*Google Cloud Functions*__](https://cloud.google.com/functions/) (incl. reacting to [__*Pub/Sub events*__](reacting-to-google-pubsub-topics) or __*Storage changes*__)
+- [__*Zeit Now*__](https://zeit.co/now) (using express under the hood)
 
 ### [Hexaville](https://github.com/noppoMan/Hexaville)
 
