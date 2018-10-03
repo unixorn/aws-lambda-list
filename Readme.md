@@ -294,6 +294,7 @@ This section is for both single functions and applications composed of multiple 
 * [lambdaskill](https://github.com/michaeluhl/lambdaskill) - A simple Python 3 toolkit to build Alexa Skills using AWS Lambda.
 * [lambdaWrap](https://github.com/Cimpress-MCP/LambdaWrap) - Ruby gem to simplify deployment of AWS Lambda based web services.
 * [lambdify](https://github.com/Prefinem/lambdify) - Lambdify is a set of tools to make it much easier to build and consume AWS Lambda functions.
+* [lightsail-backup](https://github.com/vidanov/lambda-nodejs-lightsail-backup) - Automate backups of AWS Lightsail instances.
 * [python-vendor](https://github.com/joshringer/python-vendor) - Provides an AWS service API for building compiled Python packages, ready for use in your own AWS Lambda functions.
 * [simple-lambda-router](https://github.com/brunomorency/simple-lambda-router) - A small router utility for lambda functions handling HTTP events from multiple resources and methods.
 * [Tiger-Lambda](https://github.com/Cimpress-MCP/Tiger-Lambda) - Tiger.Lambda is a .NET library for simplifying the configuration and development of AWS Lambda Functions written in C#. It provides a common host allowing for configuration and dependency injection nearly identical to that of ASP.NET Core.
