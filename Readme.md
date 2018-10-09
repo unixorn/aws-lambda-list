@@ -176,6 +176,7 @@ This section is for both single functions and applications composed of multiple 
 * [aws-maintenance-lambda (traveloka)](https://github.com/traveloka/aws-maintenance-lambda) - Trigger Jira Issue Creation from AWS Health Events.
 * [aws-monitor](https://github.com/zulily/aws_monitor) - Run periodically as an AWS Lambda, will detect your instances, add CloudWatch alerting for each, and create CloudWatch dashboards based on your preferences.
 * [aws-ses-to-elasticsearch](https://github.com/ScheduleOnce/aws-ses-to-elasticsearch) - SES is capable of sending reports about email delivery (deliveries, bounces, rejects) to SNS. However, there's no built in way to pipe these reports into something like Elastic Search. This Lambda function bridges the gap and allows to send the reports to ES.
+* [aws-sns-to-ses-mailer](https://github.com/dwp/aws-sns-to-ses-mailer) - AWS Lambda application to send emails via AWS SES using information recieved from AWS SNS notifications.
 * [AWSInventoryLambda](https://github.com/powerupcloud/AWSInventoryLambda) - Save AWS inventory as CSV on S3 and trigger emails.
 * [ballerina-lambda](https://github.com/chrishantha/ballerina-lambda) - Run a [Ballerina](https://ballerinalang.org/) service as a Lambda.
 * [binaryalert](https://github.com/airbnb/binaryalert) - Serverless, Real-time & Retroactive Malware Detection.
