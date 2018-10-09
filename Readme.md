@@ -11,18 +11,21 @@
 ## Table of Contents
 
 - [Frameworks](#frameworks)
-  - [apex](#apex)
-  - [architect](#architect)
-  - [brutus](#brutus)
-  - [chalice](#chalice)
-  - [colly](#colly)
-  - [dawson-cli](#dawson-cli)
+  - [Apex](#apex)
+  - [Architect](#architect)
+  - [Brutus](#brutus)
+  - [Chalice](#chalice)
+  - [Colly](#colly)
+  - [Dawson-cli](#dawson-cli)
+  - [Funky](#funky)
   - [Hexaville](#hexaville)
-  - [power-jambda](#power-jambda)
-  - [python-lambda](#python-lambda)
-  - [python-lambdarest](#python-lambdarest)
+  - [Middy](#middy)
+  - [Power-jambda](#power-jambda)
+  - [Python-lambda](#python-lambda)
+  - [Python-lambdarest](#python-lambdarest)
   - [Pyverless](#pyverless)
   - [Rumbda](#rumbda)
+  - [Scar](#scar)
   - [Serverless](#serverless)
   - [Serverless Golang](#serverless-golang)
   - [Sparta](#sparta)
@@ -45,11 +48,11 @@ This list is under the [Apache 2.0 license](https://github.com/unixorn/aws-lambd
 
 ## Frameworks
 
-### [apex](http://apex.run/)
+### [Apex](http://apex.run/)
 
 Apex lets you use languages that are not natively supported by AWS Lambda, such as Golang, through the use of a Node.js shim injected into the build. A variety of workflow related tooling is provided for testing functions, rolling back deploys, viewing metrics, tailing logs, hooking into the build system and more.
 
-### [architect](https://arc.codes)
+### [Architect](https://arc.codes)
 
 Architect defines infrastructure in a simple plaintext manifest `.arc` and utilizes npm script based workflows for provisioning cloud infrastructure in minutes and deploying in seconds.
 
@@ -62,41 +65,50 @@ Infra primitives supported:
 
 Architect governance is under the JS Foundation umbrella and is Apache 2.0 licensed.
 
-### [brutus](https://github.com/milesgranger/brutus)
+### [Brutus](https://github.com/milesgranger/brutus)
 
 An HTTP/TCP Distributed Computing Framework in Python using Amazon Lambda functions.
 
 This is a working prototype, still under development. Not suitable for anything other than exploring, making suggestions/issues.
 
-### [chalice](https://github.com/aws/chalice)
+### [Chalice](https://github.com/aws/chalice)
 
 Chalice is Amazon's python serverless microframework for AWS. It allows you to quickly create and deploy applications that use Amazon API Gateway and AWS Lambda.
 
-### [colly](https://github.com/tmaslen/colly)
+### [Colly](https://github.com/tmaslen/colly)
 
 Another Javascript serverless framework for AWS Lambda and API Gateway.
 
-### [dawson-cli](https://github.com/dawson-org/dawson-cli)
+### [Dawson-cli](https://github.com/dawson-org/dawson-cli)
 
 A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API Gateway, Lambda).
+
+### [Funky](https://github.com/neapjs/funky)
+
+__*Universal Serverless Web Framework*__. Write code for serverless similar to [Express](https://expressjs.com/) once, deploy everywhere (thanks to the awesome [Zeit Now-CLI](https://zeit.co/now)). This also includes creating functions that can get triggered by [Google Cloud PubSub topics](https://cloud.google.com/pubsub/docs/overview).
+
+**Targeted platforms:**
+- [__*AWS Lambdas*__](https://aws.amazon.com/lambda)
+- [__*Google Cloud Functions*__](https://cloud.google.com/functions/) (incl. reacting to [__*Pub/Sub events*__](reacting-to-google-pubsub-topics) or __*Storage changes*__)
+- [__*Zeit Now*__](https://zeit.co/now) (using express under the hood)
 
 ### [Hexaville](https://github.com/noppoMan/Hexaville)
 
 Hexaville is a serverless framework for Swift using AWS Lambda + ApiGateway etc as a back end. Build applications in Swift comprised of microservices that run in response to events, automatically scale to meet demand, and only be charged for time actually spent running.
 
-### [middy](https://github.com/middyjs/middy)
+### [Middy](https://github.com/middyjs/middy)
 
 Middy is a very simple middleware engine. If you are used to web frameworks like express, than you will be familiar with the concepts adopted in Middy and you will be able to get started very quickly.
 
-### [power-jambda](https://github.com/visionarts/power-jambda)
+### [Power-jambda](https://github.com/visionarts/power-jambda)
 
 A Java serverless microframework for RESTful API that allows you to quickly develop applications that use Amazon API Gateway and AWS Lambda.
 
-### [python-lambda](https://github.com/nficano/python-lambda)
+### [Python-lambda](https://github.com/nficano/python-lambda)
 
 A toolkit for developing and deploying serverless Python code in AWS Lambda. The Python-Lambda library takes away the guess work of developing your Python-Lambda services by providing you a toolset to streamline the annoying parts.
 
-### [python-lambdarest](https://github.com/trustpilot/python-lambdarest)
+### [Python-lambdarest](https://github.com/trustpilot/python-lambdarest)
 
 Python routing mini-framework for AWS Lambda with optional JSON-schema validation.
 
@@ -121,6 +133,10 @@ Pyverless is a mini-framework with a bunch of utilities that aims to help you cr
 ### [Rumbda](https://github.com/kleaver/rumbda)
 
 Rumbda does everything necessary to build a zip file for running ruby inside of an AWS Lambda. This includes downloading [traveling ruby](https://github.com/phusion/traveling-ruby), creating a bundle of the project's Gemfile dependencies, and creating a consumable .zip file for use with Lambda.
+
+### [Scar](https://github.com/grycap/scar)
+
+SCAR is a framework to transparently execute containers out of Docker images in AWS Lambda, in order to run applications and code in virtually any programming language (see examples for Ruby, R, Erlang and Elixir) on AWS Lambda.
 
 ### [Serverless](https://www.serverless.com)
 
@@ -153,6 +169,7 @@ Zappa makes it super easy to build and deploy server-less, event-driven Python a
 This section is for both single functions and applications composed of multiple interconnected AWS lambda functions.
 
 * [auto-tag](https://github.com/GorillaStack/auto-tag) - An open-source tagging solution for AWS. Deploy auto tag to Lambda and set up CloudTrail and have each of your resources tagged with the resource who created it.
+* [aws-faas-form](https://github.com/benkehoe/faas-form) - A command line tool invoking self-describing Lambda functions to help developers and administrators provide interfaces to Lambdas that are designed to be invoked directly by users. This allows Lambda functions to replace client-side scripts for interactions with resources running on AWS.
 * [aws-key-disabler](https://github.com/te-papa/aws-key-disabler) - Lambda Function that disables AWS IAM User Access Keys after a set amount of time in order to reduce the risk associated with old access keys.
 * [aws-lambda-blog-platform](https://github.com/sirceljm/aws-lambda-blog) - A complete blogging solution that uses the following Amazon Web Services for operation - API Gateway, Lambda, DynamoDB, S3, Cloudfront, SES.
 * [aws-maintenance-lambda (indix)](https://github.com/indix/aws-maintenance-lambda) - Send alerts (to Slack, HipChat) on AWS maintenance events.
@@ -175,6 +192,7 @@ This section is for both single functions and applications composed of multiple 
 * [ebs_snapper](https://github.com/rackerlabs/ebs_snapper) - Allows you to schedule regular EBS snapshots and clean up EBS snapshots on EC2, as well as replicate snapshots to a secondary EC2 region.
 * [ecs-host-service-scale](https://github.com/miketheman/ecs-host-service-scale) - Lambda function to ensure an ECS Service is set to the correct Desired Count for a One-Task-Per-Host placement value for any cluster that runs the Service.
 * [felix](https://github.com/Cimpress-MCP/felix) - Automate the rotation of IAM keys used by third-party services. Felix is aimed at making it easy to manage IAM keys in third-party services like SumoLogic and GitLab. It aims to be easily extensible by both built-in providers and external plugins.
+* [flywheel](https://github.com/fairfaxmedia/flywheel) - Flywheel is a HTTP proxy which starts and stops EC2 instances sitting behind it. Flywheel will automatically stop its instances when no requests have been received for a period of time.
 * [git2params](https://github.com/getsocial-rnd/git2params) - Lambda based tool for syncing configuration from Git repositories to AWS SSM Parameter Store.
 * [github-s3-deploy](https://github.com/nytlabs/github-s3-deploy) - AWS Lambda function, triggered by Github/SNS webhook, to sync new commits in an S3 bucket.
 * [honeyλ](https://github.com/0x4D31/honeyLambda) - A simple, serverless application designed to create and monitor fake HTTP endpoints (i.e. URL honeytokens) automatically, on top of AWS Lambda and Amazon API Gateway.
@@ -186,6 +204,7 @@ This section is for both single functions and applications composed of multiple 
 * [lambda-comments](https://github.com/jimpick/lambda-comments) - Blog commenting system built with AWS Lambda, API Gateway, S3, DynamoDB streams, IAM and CloudWatch Logs.
 * [lambda-keystore](https://github.com/subdavis/lambda-keystore) - Simple key-value store with TTL for AWS Lambda using DynamoDB.
 * [lambda-packs](https://github.com/ryfeus/lambda-packs) - Precompiled packages for Lambda.
+* [lambda-warmer](https://github.com/jeremydaly/lambda-warmer) - Follows the AWS best practices for keeping your lambdas warm so you don't encounter cold-boot delays.
 * [lambdaproxy](https://github.com/dan-v/awslambdaproxy) - Lambda powered HTTP/SOCKS web proxy.
 * [LambdAuth](https://github.com/danilop/LambdAuth) - Sample authentication service implemented with a server-less architecture, using AWS Lambda to host and execute the code and Amazon DynamoDB as persistent storage. This provides a cost-efficient solution that is scalable and highly available and can be used with Amazon Cognito for Developer Authenticated Identities.
 * [LambStatus](https://github.com/ks888/LambStatus) - Serverless Status Page System [lambstatus.github.io](https://lambstatus.github.io/). Eases pain caused by scaling / availability issues. It is terrible if your service is down AND heavy traffic from stuck users stops your status page.
@@ -227,6 +246,7 @@ This section is for both single functions and applications composed of multiple 
 ### Miscellaneous
 
 * [aws-lambda-cheatsheet](https://github.com/srcecde/aws-lambda-cheatsheet) - A cheatsheet for AWS Lambda (focuses on Python)
+* [Reverse Engineering AWS Lambda](https://www.denialof.services/lambda/) - This is a great article spelunking through the details of how lambdas actually work under the covers.
 
 ### Tutorials
 
@@ -237,15 +257,17 @@ This section is for both single functions and applications composed of multiple 
 * [How to Use Python 3 Type Hints in AWS Lambda](https://gist.github.com/alexcasalboni/a545b68ee164b165a74a20a5fee9d133) - Static Type Checkers help you find simple (but subtle) bugs in your Python code. Check out lambda_types.py and incrementally improve your code base and development/debugging experience with type hints.
 * [I’m afraid you’re thinking about AWS Lambda cold starts all wrong](https://hackernoon.com/im-afraid-you-re-thinking-about-aws-lambda-cold-starts-all-wrong-7d907f278a4f) - Good description of how AWS Lambda Cold Starts will affect your serverless app performance and some ways to mitigate them.
 * [Lambda Tutorial: Lambda + Serverless = HAPPY](https://www.youtube.com/watch?v=71cd5XerKss)
+* [Learn AWS Lambda](https://github.com/dwyl/learn-aws-lambda) - Tutorial that walks you through learning how to use AWS Lambda.
 * [Learning Lambda](https://blog.symphonia.io/learning-lambda-1f25af64161c) - Mike Roberts' series on learning to use Lambda
 * [Monitor multiple MySQL RDS with single Lambda function](https://blog.powerupcloud.com/monitor-multiple-mysql-rds-with-single-lambda-function-638729751121) - Tutorial on monitoring multiple RDS databases with a single Lambda function.
 * [Nightmare-lambda-tutorial](https://github.com/dimkir/nightmare-lambda-tutorial) - A sample project and tutorial to show how to run NightmareJS on AWS Lambda.
 
 ### Utilities
 
-* [amazon-rust](https://github.com/Luke-Nukem/amazon-rust) - A docker image for compiling Rust for use with AWS Lambdas. This is an image created from the base Amazon ECS image with the Rust compiler preinstalled. It is helpful for compiling Rust code for use in Amazon Lambda functions.
+* [amazon-rust](https://github.com/VICEMedia/amazon-rust) - A thin [Rust](https://www.rust-lang.org/) layer on top of the official [Amazon Linux](https://hub.docker.com/_/amazonlinux/) docker image. Suitable for both local development and continuous deployment/integration workflows. Perfect for pre-building building binaries that target various [AWS](https://aws.amazon.com) services.
 * [api-gateway-sim](https://github.com/elitechance/api-gateway-sim) - API Gateway simulator for Node JS Lambda that allows you to test your Lambda function locally.
 * [aws-lambda-dotnet](https://github.com/aws/aws-lambda-dotnet) - Libraries, samples and tools to help .NET Core developers develop AWS Lambda functions.
+* [aws-lambda-local](https://github.com/Max-Kolodezniy/aws-lambda-local) - Run javascript AWS Lambda functions locally.
 * [aws-lambda-runner](https://github.com/kevinsimard/aws-lambda-runner) - An AWS Lambda Java simulator that allows running and debugging Lambda functions authored in Java locally.
 * [aws-sam-local](https://github.com/awslabs/aws-sam-local) - `sam` is the AWS CLI tool for managing Serverless applications written with [AWS Serverless Application Model (SAM)](https://github.com/awslabs/serverless-application-model). SAM Local can be used to test functions locally, start a local API Gateway from a SAM template, validate a SAM template, and generate sample payloads for various event sources.
 * [claudia](https://github.com/claudiajs/claudia) - Claudia makes it easy to deploy Node.js projects to AWS Lambda and API Gateway. It automates all the error-prone deployment and configuration tasks, and sets everything up the way JavaScript developers expect out of the box. This means that you can get started with Lambda and API Gateway easily, and focus on solving important business problems instead of dealing with AWS deployment workflows.
@@ -273,7 +295,8 @@ This section is for both single functions and applications composed of multiple 
 * [lambdaskill](https://github.com/michaeluhl/lambdaskill) - A simple Python 3 toolkit to build Alexa Skills using AWS Lambda.
 * [lambdaWrap](https://github.com/Cimpress-MCP/LambdaWrap) - Ruby gem to simplify deployment of AWS Lambda based web services.
 * [lambdify](https://github.com/Prefinem/lambdify) - Lambdify is a set of tools to make it much easier to build and consume AWS Lambda functions.
+* [lightsail-backup](https://github.com/vidanov/lambda-nodejs-lightsail-backup) - Automate backups of AWS Lightsail instances.
 * [python-vendor](https://github.com/joshringer/python-vendor) - Provides an AWS service API for building compiled Python packages, ready for use in your own AWS Lambda functions.
-* [simple-lambda-mailer](https://github.com/hendrickson02/simple-lambda-mailer) - A simple mailer that you can use in a web blog and call via an API.
 * [simple-lambda-router](https://github.com/brunomorency/simple-lambda-router) - A small router utility for lambda functions handling HTTP events from multiple resources and methods.
+* [Tiger-Lambda](https://github.com/Cimpress-MCP/Tiger-Lambda) - Tiger.Lambda is a .NET library for simplifying the configuration and development of AWS Lambda Functions written in C#. It provides a common host allowing for configuration and dependency injection nearly identical to that of ASP.NET Core.
 * [webpack-aws-lambda-upload-plugin](https://github.com/sirceljm/webpack-aws-lambda-upload-plugin) - Zip and upload your AWS Lambda function directly from webpack.

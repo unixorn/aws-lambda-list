@@ -9,11 +9,15 @@
 
 <!--- What types of changes does your submission introduce? Put an `x` in all the boxes that apply: -->
 
-- [ ] A link to an external resource like a blog post or video
+- [ ] A link to an external resource like a blog post, tutorial or video
 - [ ] Add/remove a framework
 - [ ] Add/remove a lambda function
 - [ ] Add/remove a utility
 - [ ] Text cleanups/typo fixes
+
+# Copyright Assignment
+
+- [ ] This list is Apache 2.0 licensed, and I agree that the contribution in this PR is subject to that license. If you do not check this, I cannot add your contribution to the list.
 
 # Checklist:
 
@@ -25,4 +29,3 @@
 - [ ] I have read the **CONTRIBUTING** document.
 - [ ] All new and existing tests passed.
 - [ ] I have stripped leading **aws-** or **aws-lambda-** from the link name. This makes it easier to find things by name by preventing a big clusters in the A sections of the sublists.
-- [ ] This list is Apache 2.0 licensed, and I agree that my PR is subject to that license.
