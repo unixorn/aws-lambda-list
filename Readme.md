@@ -263,6 +263,7 @@ This section is for both single functions and applications composed of multiple 
 * [Learning Lambda](https://blog.symphonia.io/learning-lambda-1f25af64161c) - Mike Roberts' series on learning to use Lambda
 * [Monitor multiple MySQL RDS with single Lambda function](https://blog.powerupcloud.com/monitor-multiple-mysql-rds-with-single-lambda-function-638729751121) - Tutorial on monitoring multiple RDS databases with a single Lambda function.
 * [Nightmare-lambda-tutorial](https://github.com/dimkir/nightmare-lambda-tutorial) - A sample project and tutorial to show how to run NightmareJS on AWS Lambda.
+* [Serverless Starter](https://github.com/orangejellyfish/serverless-starter) - An opinionated starter kit by [orangejellyfish](https://www.orangejellyfish.com/) for [Serverless framework](https://serverless.com/framework/) apps running in [AWS](https://aws.amazon.com/). Built to be future-proof. Inspired by and adapted from the excellent [serverless-babel-starter](https://github.com/postlight/serverless-babel-starter) project by [Postlight](https://github.com/postlight).
 
 ### Utilities
 
