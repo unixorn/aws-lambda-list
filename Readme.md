@@ -248,6 +248,7 @@ This section is for both single functions and applications composed of multiple 
 ### Miscellaneous
 
 * [aws-lambda-cheatsheet](https://github.com/srcecde/aws-lambda-cheatsheet) - A cheatsheet for AWS Lambda (focuses on Python)
+* [awesome-layers](https://github.com/mthenw/awesome-layers) - A curated list of awesome [AWS Lambda Layers](https://aws.amazon.com/about-aws/whats-new/2018/11/aws-lambda-now-supports-custom-runtimes-and-layers/)
 * [Reverse Engineering AWS Lambda](https://www.denialof.services/lambda/) - This is a great article spelunking through the details of how lambdas actually work under the covers.
 
 ### Tutorials
@@ -263,6 +264,7 @@ This section is for both single functions and applications composed of multiple 
 * [Learning Lambda](https://blog.symphonia.io/learning-lambda-1f25af64161c) - Mike Roberts' series on learning to use Lambda
 * [Monitor multiple MySQL RDS with single Lambda function](https://blog.powerupcloud.com/monitor-multiple-mysql-rds-with-single-lambda-function-638729751121) - Tutorial on monitoring multiple RDS databases with a single Lambda function.
 * [Nightmare-lambda-tutorial](https://github.com/dimkir/nightmare-lambda-tutorial) - A sample project and tutorial to show how to run NightmareJS on AWS Lambda.
+* [Serverless Starter](https://github.com/orangejellyfish/serverless-starter) - An opinionated starter kit by [orangejellyfish](https://www.orangejellyfish.com/) for [Serverless framework](https://serverless.com/framework/) apps running in [AWS](https://aws.amazon.com/). Built to be future-proof. Inspired by and adapted from the excellent [serverless-babel-starter](https://github.com/postlight/serverless-babel-starter) project by [Postlight](https://github.com/postlight).
 
 ### Utilities
 
@@ -300,6 +302,7 @@ This section is for both single functions and applications composed of multiple 
 * [lambdaWrap](https://github.com/Cimpress-MCP/LambdaWrap) - Ruby gem to simplify deployment of AWS Lambda based web services.
 * [lambdify](https://github.com/Prefinem/lambdify) - Lambdify is a set of tools to make it much easier to build and consume AWS Lambda functions.
 * [lightsail-backup](https://github.com/vidanov/lambda-nodejs-lightsail-backup) - Automate backups of AWS Lightsail instances.
+* [python-aws-dataclasses](https://github.com/hypoport/python-aws-dataclasses) - Provides data-classes for AWS lambda events and other AWS data. The dataclasses are type-annotated, as to allow for full IDE (code completion / IntelliSense) support.
 * [python-vendor](https://github.com/joshringer/python-vendor) - Provides an AWS service API for building compiled Python packages, ready for use in your own AWS Lambda functions.
 * [shadowreader](https://github.com/edmunds/shadowreader) - ShadowReader has the ability to replay production traffic to a destination of your choice by collecting traffic patterns from access logs. It is built on AWS Lambda, S3 and Elastic Load Balancers.
 * [simple-lambda-router](https://github.com/brunomorency/simple-lambda-router) - A small router utility for lambda functions handling HTTP events from multiple resources and methods.
