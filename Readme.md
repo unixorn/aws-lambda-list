@@ -96,6 +96,10 @@ __*Universal Serverless Web Framework*__. Write code for serverless similar to [
 
 Hexaville is a serverless framework for Swift using AWS Lambda + ApiGateway etc as a back end. Build applications in Swift comprised of microservices that run in response to events, automatically scale to meet demand, and only be charged for time actually spent running.
 
+### [Jets](https://github.com/tongueroo/jets)
+
+Jets is a Ruby Serverless Framework. Jets allows you to create serverless applications with a beautiful language: Ruby. It includes everything required to build an application and deploy it to AWS Lambda. The official documentation is at [Ruby on Jets](http://rubyonjets.com/).
+
 ### [Middy](https://github.com/middyjs/middy)
 
 Middy is a very simple middleware engine. If you are used to web frameworks like express, than you will be familiar with the concepts adopted in Middy and you will be able to get started very quickly.
