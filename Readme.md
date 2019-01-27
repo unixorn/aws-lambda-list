@@ -307,6 +307,7 @@ This section is for both single functions and applications composed of multiple 
 * [lambdaWrap](https://github.com/Cimpress-MCP/LambdaWrap) - Ruby gem to simplify deployment of AWS Lambda based web services.
 * [lambdify](https://github.com/Prefinem/lambdify) - Lambdify is a set of tools to make it much easier to build and consume AWS Lambda functions.
 * [lightsail-backup](https://github.com/vidanov/lambda-nodejs-lightsail-backup) - Automate backups of AWS Lightsail instances.
+* [mangum](https://github.com/erm/mangum) - Mangum is a library for using [ASGI](https://asgi.readthedocs.io/en/latest/) applications with FaaS platforms.
 * [python-aws-dataclasses](https://github.com/hypoport/python-aws-dataclasses) - Provides data-classes for AWS lambda events and other AWS data. The dataclasses are type-annotated, as to allow for full IDE (code completion / IntelliSense) support.
 * [python-vendor](https://github.com/joshringer/python-vendor) - Provides an AWS service API for building compiled Python packages, ready for use in your own AWS Lambda functions.
 * [shadowreader](https://github.com/edmunds/shadowreader) - ShadowReader has the ability to replay production traffic to a destination of your choice by collecting traffic patterns from access logs. It is built on AWS Lambda, S3 and Elastic Load Balancers.
