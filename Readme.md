@@ -277,6 +277,7 @@ This section is for both single functions and applications composed of multiple 
 * [alphorn](https://github.com/grudelsud/alphorn) - Alphorn is a simple Python package to handle Lambda invocations routed by the AWS API Gateway with a `{proxy+}` configuration.
 * [amazon-rust](https://github.com/VICEMedia/amazon-rust) - A thin [Rust](https://www.rust-lang.org/) layer on top of the official [Amazon Linux](https://hub.docker.com/_/amazonlinux/) docker image. Suitable for both local development and continuous deployment/integration workflows. Perfect for pre-building building binaries that target various [AWS](https://aws.amazon.com) services.
 * [api-gateway-sim](https://github.com/elitechance/api-gateway-sim) - API Gateway simulator for Node JS Lambda that allows you to test your Lambda function locally.
+* [aws-lambda-container-image-converter](https://github.com/awslabs/aws-lambda-container-image-converter) - repackages container images (such as Docker images) into AWS Lambda layers, and publishes them as new layer versions.
 * [aws-lambda-dotnet](https://github.com/aws/aws-lambda-dotnet) - Libraries, samples and tools to help .NET Core developers develop AWS Lambda functions.
 * [aws-lambda-local](https://github.com/Max-Kolodezniy/aws-lambda-local) - Run javascript AWS Lambda functions locally.
 * [aws-lambda-runner](https://github.com/kevinsimard/aws-lambda-runner) - An AWS Lambda Java simulator that allows running and debugging Lambda functions authored in Java locally.
