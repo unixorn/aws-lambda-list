@@ -1,7 +1,6 @@
 # aws-lambda-list
 
 [![License](https://img.shields.io/github/license/unixorn/aws-lambda-list.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Build Status](https://travis-ci.org/unixorn/aws-lambda-list.svg?branch=master)](https://travis-ci.org/unixorn/aws-lambda-list)
 [![CircleCI](https://circleci.com/gh/unixorn/awesome-zsh-plugins.svg?style=shield)](https://circleci.com/gh/unixorn/awesome-zsh-plugins)
 [![GitHub stars](https://img.shields.io/github/stars/unixorn/aws-lambda-list.svg)](https://github.com/unixorn/aws-lambda-list/stargazers)
 [![Code Climate](https://codeclimate.com/github/unixorn/aws-lambda-list/badges/gpa.svg)](https://codeclimate.com/github/unixorn/aws-lambda-list)
