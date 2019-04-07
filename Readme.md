@@ -19,6 +19,7 @@
   - [Dawson-cli](#dawson-cli)
   - [Funky](#funky)
   - [Hexaville](#hexaville)
+  - [Jets](#jets)
   - [Middy](#middy)
   - [Power-jambda](#power-jambda)
   - [Python-lambda](#python-lambda)
