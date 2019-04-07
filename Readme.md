@@ -307,6 +307,7 @@ This section is for both single functions and applications composed of multiple 
 * [lambda-tdd](https://github.com/simlu/lambda-tdd) - A testing framework for AWS Lambda functions. Useful for integration testing as you can examine how your lambda function executes for certain input and specific environment variables. Tries to model the cloud execution as closely as possible
 * [lambda-tester](https://github.com/vandium-io/lambda-tester) - Helper for unit testing AWS Lambda functions using Node.js
 * [lambda_utils](https://github.com/CloudHeads/lambda_utils) - Python helper decorator for handling different AWS Event types for AWS Lambda.
+* [lambdacore](https://github.com/milancermak/lambdacore) - AWS Lambda Layer of various core functions for Python Lambda functions.
 * [lambdaSH](https://github.com/alestic/lambdash) - Run shell commands inside AWS Lambda environment
 * [lambdaskill](https://github.com/michaeluhl/lambdaskill) - A simple Python 3 toolkit to build Alexa Skills using AWS Lambda.
 * [lambdaWrap](https://github.com/Cimpress-MCP/LambdaWrap) - Ruby gem to simplify deployment of AWS Lambda based web services.
