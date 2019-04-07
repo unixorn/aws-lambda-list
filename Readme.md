@@ -19,6 +19,7 @@
   - [Dawson-cli](#dawson-cli)
   - [Funky](#funky)
   - [Hexaville](#hexaville)
+  - [Jets](#jets)
   - [Middy](#middy)
   - [Power-jambda](#power-jambda)
   - [Python-lambda](#python-lambda)
@@ -277,13 +278,13 @@ This section is for both single functions and applications composed of multiple 
 * [alphorn](https://github.com/grudelsud/alphorn) - Alphorn is a simple Python package to handle Lambda invocations routed by the AWS API Gateway with a `{proxy+}` configuration.
 * [amazon-rust](https://github.com/VICEMedia/amazon-rust) - A thin [Rust](https://www.rust-lang.org/) layer on top of the official [Amazon Linux](https://hub.docker.com/_/amazonlinux/) docker image. Suitable for both local development and continuous deployment/integration workflows. Perfect for pre-building building binaries that target various [AWS](https://aws.amazon.com) services.
 * [api-gateway-sim](https://github.com/elitechance/api-gateway-sim) - API Gateway simulator for Node JS Lambda that allows you to test your Lambda function locally.
+* [authorizer-basic-auth](https://github.com/dougalb/lambda-authorizer-basic-auth) - Serverless Application that creates Lambda function to use as an authorizer in Amazon API Gateway for HTTP Basic Auth and a DynamoDB table for users.
 * [aws-lambda-container-image-converter](https://github.com/awslabs/aws-lambda-container-image-converter) - repackages container images (such as Docker images) into AWS Lambda layers, and publishes them as new layer versions.
 * [aws-lambda-dotnet](https://github.com/aws/aws-lambda-dotnet) - Libraries, samples and tools to help .NET Core developers develop AWS Lambda functions.
 * [aws-lambda-local](https://github.com/Max-Kolodezniy/aws-lambda-local) - Run javascript AWS Lambda functions locally.
 * [aws-lambda-runner](https://github.com/kevinsimard/aws-lambda-runner) - An AWS Lambda Java simulator that allows running and debugging Lambda functions authored in Java locally.
 * [aws-limit-monitor](https://github.com/awslabs/aws-limit-monitor) - Customizable Lambda functions to proactively notify you when you are about to hit an AWS service limit. Requires Enterprise or Business level support to access Support API.
 * [aws-sam-cli](https://github.com/awslabs/aws-sam-cli) - `sam` is the AWS CLI tool for managing Serverless applications written with [AWS Serverless Application Model (SAM)](https://github.com/awslabs/serverless-application-model). SAM Local can be used to test functions locally, start a local API Gateway from a SAM template, validate a SAM template, generate sample payloads for various event sources, and generate a SAM project in your favorite Lambda Runtime.
-* [authorizer-basic-auth](https://github.com/dougalb/lambda-authorizer-basic-auth) - Serverless Application that creates Lambda function to use as an authorizer in Amazon API Gateway for HTTP Basic Auth and a DynamoDB table for users.
 * [claudia](https://github.com/claudiajs/claudia) - Claudia makes it easy to deploy Node.js projects to AWS Lambda and API Gateway. It automates all the error-prone deployment and configuration tasks, and sets everything up the way JavaScript developers expect out of the box. This means that you can get started with Lambda and API Gateway easily, and focus on solving important business problems instead of dealing with AWS deployment workflows.
 * [cljs-lambda](https://github.com/nervous-systems/cljs-lambda) - Utilities around deploying Clojurescript functions to AWS Lambda.
 * [cookiecutter](https://github.com/browniebroke/cookiecutter-lambda-function) - A cookiecutter template to create AWS Lambda functions in Python.
@@ -307,6 +308,7 @@ This section is for both single functions and applications composed of multiple 
 * [lambda-tdd](https://github.com/simlu/lambda-tdd) - A testing framework for AWS Lambda functions. Useful for integration testing as you can examine how your lambda function executes for certain input and specific environment variables. Tries to model the cloud execution as closely as possible
 * [lambda-tester](https://github.com/vandium-io/lambda-tester) - Helper for unit testing AWS Lambda functions using Node.js
 * [lambda_utils](https://github.com/CloudHeads/lambda_utils) - Python helper decorator for handling different AWS Event types for AWS Lambda.
+* [lambdacore](https://github.com/milancermak/lambdacore) - AWS Lambda Layer of various core functions for Python Lambda functions.
 * [lambdaSH](https://github.com/alestic/lambdash) - Run shell commands inside AWS Lambda environment
 * [lambdaskill](https://github.com/michaeluhl/lambdaskill) - A simple Python 3 toolkit to build Alexa Skills using AWS Lambda.
 * [lambdaWrap](https://github.com/Cimpress-MCP/LambdaWrap) - Ruby gem to simplify deployment of AWS Lambda based web services.
@@ -318,4 +320,5 @@ This section is for both single functions and applications composed of multiple 
 * [shadowreader](https://github.com/edmunds/shadowreader) - ShadowReader has the ability to replay production traffic to a destination of your choice by collecting traffic patterns from access logs. It is built on AWS Lambda, S3 and Elastic Load Balancers.
 * [simple-lambda-router](https://github.com/brunomorency/simple-lambda-router) - A small router utility for lambda functions handling HTTP events from multiple resources and methods.
 * [Tiger-Lambda](https://github.com/Cimpress-MCP/Tiger-Lambda) - Tiger.Lambda is a .NET library for simplifying the configuration and development of AWS Lambda Functions written in C#. It provides a common host allowing for configuration and dependency injection nearly identical to that of ASP.NET Core.
+* [webhook-lambda](https://github.com/jeshan/webhook-lambda) - Easily create a webhook on AWS. Use it to launch a CodePipeline pipeline or customise the serverless function as you see fit.
 * [webpack-aws-lambda-upload-plugin](https://github.com/sirceljm/webpack-aws-lambda-upload-plugin) - Zip and upload your AWS Lambda function directly from webpack.
