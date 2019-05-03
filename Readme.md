@@ -193,6 +193,7 @@ This section is for both single functions and applications composed of multiple 
 * [cloud-custodian](https://github.com/capitalone/cloud-custodian) - Cloud Custodian can be used to manage AWS accounts by ensuring real time compliance to security policies (like encryption and access requirements), tag policies, and cost management via garbage collection of unused resources and off-hours resource management.
 * [cloudwatch-logs-customize-alarms](https://github.com/awslabs/cloudwatch-logs-customize-alarms) - Helps customize alarms from Amazon CloudWatch to fit your specific needs
 * [cloudwatch-logs-shipper-logzio-lambda](https://github.com/logzio/cloudwatch-logs-shipper-lambda) - Ships Cloudwatch Logs to [logz.io](logz.io).
+* [codepipeline-monorepo-webhook](https://github.com/m1nde/codepipeline-monorepo-webhook) - A webhook handler that triggers AWS CodePipelines for mono repos, implemented as a serverless AWS Lambda function.
 * [cwlogs2sns](https://github.com/jakubknejzlik/cwlogs2sns) - AWS CloudWatch to SNS handler for AWS Lambda.
 * [ddns-function](https://github.com/awslabs/aws-lambda-ddns-function) - Dynamically create Route 53 resource records using CloudWatch Events and AWS Lambda.
 * [ebs_snapper](https://github.com/rackerlabs/ebs_snapper) - Allows you to schedule regular EBS snapshots and clean up EBS snapshots on EC2, as well as replicate snapshots to a secondary EC2 region.
