@@ -249,6 +249,7 @@ This section is for both single functions and applications composed of multiple 
 * [stash](https://github.com/arithmetric/lambda-stash) - Lambda script to ship data from S3 to other data stores, like Elasticsearch. Out of the box it supports AWS Cloudfront access logs, AWS Cloudtrail API logs, AWS CloudWatch logs, AWS Config change logs, and can be extended with custom handlers.
 * [StreamAlert](https://github.com/airbnb/streamalert) - StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define.
 * [sumologic-aws-lambda-unzip](https://github.com/frankreno/sumologic-aws-lambda-unzip) - Java Lambda function that can uncompress a zip file, read the files inside and send them to Sumo Logic.
+* [terraform-aws-lambda](https://github.com/telia-oss/terraform-aws-lambda) - Lambda module for [Terraform](https://registry.terraform.io/modules/telia-oss/lambda/aws/0.4.0).
 * [url-shortener](https://github.com/guihaojin/url-shortener) - URL Shortener service built with serverless framework on AWS, API Gateway + Lambda + DynamoDB.
 * [watchtower](https://github.com/wmnnd/lambda-watchtower) - Serverless HTTP(S) Endpoint Monitoring With AWS Lambda & CloudWatch.
 
