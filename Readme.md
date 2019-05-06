@@ -193,6 +193,7 @@ This section is for both single functions and applications composed of multiple 
 * [cloud-custodian](https://github.com/capitalone/cloud-custodian) - Cloud Custodian can be used to manage AWS accounts by ensuring real time compliance to security policies (like encryption and access requirements), tag policies, and cost management via garbage collection of unused resources and off-hours resource management.
 * [cloudwatch-logs-customize-alarms](https://github.com/awslabs/cloudwatch-logs-customize-alarms) - Helps customize alarms from Amazon CloudWatch to fit your specific needs
 * [cloudwatch-logs-shipper-logzio-lambda](https://github.com/logzio/cloudwatch-logs-shipper-lambda) - Ships Cloudwatch Logs to [logz.io](logz.io).
+* [codepipeline-monorepo-webhook](https://github.com/m1nde/codepipeline-monorepo-webhook) - A webhook handler that triggers AWS CodePipelines for mono repos, implemented as a serverless AWS Lambda function.
 * [cwlogs2sns](https://github.com/jakubknejzlik/cwlogs2sns) - AWS CloudWatch to SNS handler for AWS Lambda.
 * [ddns-function](https://github.com/awslabs/aws-lambda-ddns-function) - Dynamically create Route 53 resource records using CloudWatch Events and AWS Lambda.
 * [ebs_snapper](https://github.com/rackerlabs/ebs_snapper) - Allows you to schedule regular EBS snapshots and clean up EBS snapshots on EC2, as well as replicate snapshots to a secondary EC2 region.
@@ -231,6 +232,7 @@ This section is for both single functions and applications composed of multiple 
 * [serverless-ami-replicator](https://github.com/miztiik/serverless-ami-replicator) - Replicate AMIs across AWS Regions.
 * [serverless-backup](https://github.com/miztiik/serverless-backup) - A simple AWS Boto3 script to trigger EBS Snapshots using Lambda Functions.
 * [serverless-ephemeral](https://github.com/Accenture/serverless-ephemeral) - Serverless Ephemeral (or Serephem) is a [Serverless Framework](https://serverless.com/framework/docs/providers/aws/guide/plugins/) plugin that helps bundle any stateless library into a Lambda deployment artifact.
+* [serverless-es-logs](https://github.com/daniel-cottone/serverless-es-logs) - Serverless plugin to transport logs to ElasticSearch.
 * [serverless-plugin-healthcheck](https://github.com/Financial-Times/serverless-plugin-healthcheck) - Creates one schedule event lambda that invokes all the service lambdas you select in a configured time interval (default: 5 minutes) or a specific time, forcing your containers to report their status. In adition, it creates a new endpoint (named __health by default) which can be called to provide a json summary of the current status of each healthcheck.
 * [serverless-plugin-stackstorm](https://github.com/StackStorm/serverless-plugin-stackstorm) - Plugin for serverless framework to run ready to use actions from [StackStorm Exchange](https://exchange.stackstorm.org) as AWS Lambda functions.
 * [serverless-s3-processing](https://github.com/btsuhako/serverless-s3-processing) - Uses the [Serverless](https://serverless.com/) Framework and AWS Lambda to process objects and events from S3.
@@ -247,6 +249,7 @@ This section is for both single functions and applications composed of multiple 
 * [stash](https://github.com/arithmetric/lambda-stash) - Lambda script to ship data from S3 to other data stores, like Elasticsearch. Out of the box it supports AWS Cloudfront access logs, AWS Cloudtrail API logs, AWS CloudWatch logs, AWS Config change logs, and can be extended with custom handlers.
 * [StreamAlert](https://github.com/airbnb/streamalert) - StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define.
 * [sumologic-aws-lambda-unzip](https://github.com/frankreno/sumologic-aws-lambda-unzip) - Java Lambda function that can uncompress a zip file, read the files inside and send them to Sumo Logic.
+* [terraform-aws-lambda](https://github.com/telia-oss/terraform-aws-lambda) - Lambda module for [Terraform](https://registry.terraform.io/modules/telia-oss/lambda/aws/0.4.0).
 * [url-shortener](https://github.com/guihaojin/url-shortener) - URL Shortener service built with serverless framework on AWS, API Gateway + Lambda + DynamoDB.
 * [watchtower](https://github.com/wmnnd/lambda-watchtower) - Serverless HTTP(S) Endpoint Monitoring With AWS Lambda & CloudWatch.
 
