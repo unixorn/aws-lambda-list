@@ -313,6 +313,7 @@ This section is for both single functions and applications composed of multiple 
 * [lambda-tester](https://github.com/vandium-io/lambda-tester) - Helper for unit testing AWS Lambda functions using Node.js
 * [lambda_utils](https://github.com/CloudHeads/lambda_utils) - Python helper decorator for handling different AWS Event types for AWS Lambda.
 * [lambdacore](https://github.com/milancermak/lambdacore) - AWS Lambda Layer of various core functions for Python Lambda functions.
+* [LambdaGuard](https://github.com/Skyscanner/LambdaGuard) - An AWS Lambda auditing tool designed to create asset visibility and provide actionable results. It provides a meaningful overview in terms of statistical analysis, AWS service dependencies and configuration checks from the security perspective.
 * [lambdaSH](https://github.com/alestic/lambdash) - Run shell commands inside AWS Lambda environment
 * [lambdaskill](https://github.com/michaeluhl/lambdaskill) - A simple Python 3 toolkit to build Alexa Skills using AWS Lambda.
 * [lambdaWrap](https://github.com/Cimpress-MCP/LambdaWrap) - Ruby gem to simplify deployment of AWS Lambda based web services.
