@@ -210,7 +210,6 @@ This section is for both single functions and applications composed of multiple 
 * [imprenta](https://github.com/alfredo/imprenta) - Generates PDF files from HTML using jinja, pdfkit and wkhtmltopdf.
 * [invokust](https://github.com/FutureSharks/invokust) - A tool for running [Locust](http://locust.io/) load tests from within Python without the need to use the locust command line to allow running load tests in python or on AWS Lambda.
 * [json-server-less-λ](https://github.com/pharindoko/json-server-less-lambda) - Easily deploy [json-server](https://github.com/typicode/json-server) in the AWS cloud as a lambda.
-* [lambda-live-debugger](https://github.com/ServerlessLife/lambda-live-debugger) - Provides on-the-fly debugging capabilities for AWS Lambda functions, eliminating redeployment delays and boosting developer productivity. Learn about the [Lambda Live Debugger](https://www.srvrlss.io/blog/lambda-live-debugger/).
 * [lambda-comments](https://github.com/jimpick/lambda-comments) - Blog commenting system built with AWS Lambda, API Gateway, S3, DynamoDB streams, IAM and CloudWatch Logs.
 * [lambda-keystore](https://github.com/subdavis/lambda-keystore) - Simple key-value store with TTL for AWS Lambda using DynamoDB.
 * [lambda-packs](https://github.com/ryfeus/lambda-packs) - Precompiled packages for Lambda.
@@ -220,6 +219,7 @@ This section is for both single functions and applications composed of multiple 
 * [LambdAuth](https://github.com/danilop/LambdAuth) - Sample authentication service implemented with a server-less architecture, using AWS Lambda to host and execute the code and Amazon DynamoDB as persistent storage. This provides a cost-efficient solution that is scalable and highly available and can be used with Amazon Cognito for Developer Authenticated Identities.
 * [LambStatus](https://github.com/ks888/LambStatus) - Serverless Status Page System [lambstatus.github.io](https://lambstatus.github.io/). Eases pain caused by scaling / availability issues. It is terrible if your service is down AND heavy traffic from stuck users stops your status page.
 * [letsencrypt](https://github.com/ubergeek42/lambda-letsencrypt) - Use [AWS Lambda](https://aws.amazon.com/lambda/) to manage SSL certificates for any site that uses [Amazon's CloudFront CDN](https://aws.amazon.com/cloudfront/).
+* [live-debugger](https://github.com/ServerlessLife/lambda-live-debugger) - Provides on-the-fly debugging capabilities for AWS Lambda functions, eliminating redeployment delays. Learn about the [Lambda Live Debugger](https://www.srvrlss.io/blog/lambda-live-debugger/).
 * [MoonMail](https://github.com/microapps/MoonMail) - Sends email marketing campaigns with [Amazon SES](https://moonmail.io/amazon-ses-email-marketing/).
 * [node-letsencrypt-lambda](https://github.com/ocelotconsulting/node-letsencrypt-lambda) - Use AWS Lambda to manage SSL certificates for Lets-Encrypt.
 * [perf-cop](https://github.com/Quartz/perf-cop) - Profiles your site with PWMetrics and publishes the results as CloudWatch metrics.
